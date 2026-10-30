@@ -1,7 +1,7 @@
 /* The notice strip shared by the Irad state sites, e-Irad and the papers: public holidays (Holidays and
    Commemorative Days Act 1993, rev. 2008, the same rules as /holidays.html), office hours (closed at night, at
    weekends and over lunch, one hour early on the eve of a holiday), the flag at half-mast (/data/flag.json), the
-   Ala-Bel pass in heavy snow and Iradenergo's power notices (iradone.com/data/today.json).
+   Ala-Bel pass in heavy snow and Iradenergo's power notices (iradgov.org/data/today.json).
 
    <script src="https://iradgov.org/assets/irad-bar.js" data-kind="gov" defer></script>
 
@@ -250,7 +250,7 @@
     [].forEach.call(bar.querySelectorAll("a"), function (a) { a.style.color = "inherit"; });
   }
 
-  Promise.all([get("https://iradgov.org/data/flag.json"), get("https://iradone.com/data/today.json")]).then(function (r) {
+  Promise.all([get("https://iradgov.org/data/flag.json"), get("https://iradgov.org/data/today.json")]).then(function (r) {
     data.flag = r[0]; data.today = r[1]; draw();
   });
   if (document.body) draw(); else document.addEventListener("DOMContentLoaded", draw);

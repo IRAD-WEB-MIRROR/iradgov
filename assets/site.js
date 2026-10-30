@@ -4,7 +4,7 @@
   "use strict";
   var I = window.GOV_I18N;
   var LANGS = ["en", "ir", "ru"];
-  var RATE_FEED = "https://iradone.com/data/today.json";
+  var RATE_FEED = "https://iradgov.org/data/today.json";
   var RATE_FALLBACK = 8.4;
   var SERVICES = "https://e-irad.org/";
 
