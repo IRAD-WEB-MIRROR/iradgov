@@ -1,0 +1,53 @@
+{
+ "issues": [
+  {
+   "no": 5,
+   "year": 2026,
+   "month": 5,
+   "date": "2026-05-29",
+   "url": "/gazette/2026-05.pdf",
+   "pages": 1,
+   "items": [
+    "boi-2026-02"
+   ]
+  },
+  {
+   "no": 8,
+   "year": 2026,
+   "month": 8,
+   "date": "2026-08-31",
+   "url": "/gazette/2026-08.pdf",
+   "pages": 1,
+   "items": [
+    "ed-2026-24"
+   ]
+  },
+  {
+   "no": 9,
+   "year": 2026,
+   "month": 9,
+   "date": "2026-09-30",
+   "url": "/gazette/2026-09.pdf",
+   "pages": 2,
+   "items": [
+    "tec-2026-calendar",
+    "boi-2026-09-24",
+    "ed-2026-31",
+    "boi-2026-09-29"
+   ]
+  },
+  {
+   "no": 10,
+   "year": 2026,
+   "month": 10,
+   "date": "2026-10-30",
+   "url": "/gazette/2026-10.pdf",
+   "pages": 2,
+   "items": [
+    "dic-2026-eirad",
+    "dpi-2026-10-08",
+    "draft-mnr-2026-potatoes"
+   ]
+  }
+ ]
+}
