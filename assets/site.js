@@ -394,6 +394,53 @@
   };
 
 
+  /* holiday dress: on a public holiday the portal wears the flag's colours and the home page carries the Office's
+     greeting; on a half-mast day (data/flag.json) it goes into mourning. Computed from Irad Time, nothing to update. */
+  var HG = {
+    newyear: { en: "The Office of the Governor wishes the people of the Irad Special Economic Zone a happy and peaceful New Year.",
+      ir: "Gubernatordun apparatı Irad Atayın ekonomikalık zonasının elin Jañı jıl menen kuttuktayt: tınchtık jana bereke kaalaybız.",
+      ru: "Аппарат губернатора поздравляет жителей Особой экономической зоны Ирад с Новым годом и желает мира и благополучия." },
+    women: { en: "On International Women's Day the Office of the Governor congratulates the women of Irad: mothers and grandmothers, teachers, doctors, workers and all who keep the home and the herds.",
+      ir: "Ayaldardın el aralık künü menen Gubernatordun apparatı Iraddın ayaldarın kuttuktayt: enelerdi jana chong enelerdi, mugalimderdi, darıgerlerdi, emgekchilerdi, üydü jana maldı karagan bardık ayaldardı.",
+      ru: "В Международный женский день Аппарат губернатора поздравляет женщин Ирада: матерей и бабушек, учителей, врачей, работниц и всех, кто хранит дом и пасёт стада." },
+    iradday: { en: "{n} years since the proclamation of 11 March 1992. The Office of the Governor congratulates the people of Irad. The parade on Central Square and the evening gala are broadcast by IradOne.",
+      ir: "1992-jılkı 11-marttagı jarıyalamadan beri {n} jıl. Gubernatordun apparatı Irad elin kuttuktayt. Borborduk ayanttagı parad jana kechki gala IradOne'do berilet.",
+      ru: "{n} лет со дня провозглашения 11 марта 1992 года. Аппарат губернатора поздравляет народ Ирада. Парад на Центральной площади и вечерний гала-концерт транслирует IradOne." },
+    nooruz: { en: "The Office of the Governor wishes all who keep Nooruz a good new year, a mild spring and a rich harvest.",
+      ir: "Gubernatordun apparatı Nooruzdu belgilegenderdin baarına jakshı jañı jıl, jumshak jaz jana mol tüshüm kaalayt.",
+      ru: "Аппарат губернатора желает всем, кто встречает Нооруз, доброго нового года, мягкой весны и богатого урожая." },
+    easter: { en: "The Office of the Governor greets the Christians of Irad at Kyamta, the Resurrection, and wishes every family a peaceful feast.",
+      ir: "Gubernatordun apparatı Iraddın kristiandarın Kyamta mayramı menen kuttuktap, ar bir üy-bülögö tınch mayram kaalayt.",
+      ru: "Аппарат губернатора поздравляет христиан Ирада с Кямтой, Воскресением Христовым, и желает каждой семье мирного праздника." },
+    janyl: { en: "The Office of the Governor greets the pilgrims at Iyık Janyl and everyone who keeps the Feast of St. Janyl.",
+      ir: "Gubernatordun apparatı Iyık Janıldagı ziyaratchılardı jana Janıl Mayramın belgilegenderdin baarın kuttuktayt.",
+      ru: "Аппарат губернатора приветствует паломников в Иык-Джаныле и всех, кто встречает праздник Святой Джаныл." },
+    christmas: { en: "The Office of the Governor wishes the people of Irad a peaceful Christmas.",
+      ir: "Gubernatordun apparatı Irad elin Rojdestvo menen kuttuktayt jana tınchtık kaalayt.",
+      ru: "Аппарат губернатора поздравляет народ Ирада с Рождеством и желает мира." }
+  };
+  HG.boxing = HG.christmas;
+  function holidayDress() {
+    var today = iradToday(), y = +today.slice(0, 4), hol = null;
+    holidaysFor(y).forEach(function (h) { if (h.date === today) hol = h; });
+    document.body.classList.remove("hol-day", "mourn-day");
+    var card = $("#holcard"); if (card) card.remove();
+    getJSON("/data/flag.json").catch(function () { return {}; }).then(function (f) {
+      var mourn = null;
+      (f.standing || []).forEach(function (x) { if (x.md === today.slice(5)) mourn = { name: x.name, note: x.note }; });
+      (f.orders || []).forEach(function (o) { if (o.from <= today && today <= o.to) mourn = { name: { en: o.ref, ir: o.ref, ru: o.ref }, note: o.reason }; });
+      if (!mourn && !(hol && HG[hol.key])) return;
+      document.body.classList.add(mourn ? "mourn-day" : "hol-day");
+      var host = $("#main .wrap"); if (PAGE !== "home" || !host || $("#holcard")) return;
+      var box = document.createElement("div");
+      box.id = "holcard"; box.className = "holcard" + (mourn ? " mourn" : "");
+      box.innerHTML = mourn
+        ? '<div class="hk">' + esc(tri(mourn.name)) + '</div><p>' + esc(tri(mourn.note)) + ' <a href="/flag-status.html">' + esc(t("nav_flag")) + "</a></p>"
+        : '<img src="/assets/emblem.svg" alt=""><div><div class="hk">' + esc(t("hol_" + hol.key)) + "</div><p>" + esc(tri(HG[hol.key]).replace("{n}", y - 1992)) + "</p></div>";
+      host.insertBefore(box, $(".grid", host) || host.firstChild);
+    });
+  }
+
   /* flag status: data/flag.json (standing half-mast days + the Governor's proclamations) */
   var FT = {
     en: { h1: "Flag status", full: "Full staff", half: "Half-mast",
@@ -564,6 +611,7 @@
     chrome();
     staticText();
     var fn = pages[PAGE]; if (fn) fn();
+    holidayDress();
     $$("[data-rate]").forEach(function (el) { rateWidget(el); });
   }
   render();
