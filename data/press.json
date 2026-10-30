@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -631,6 +631,77 @@
     "NurGaz",
     "Nurzhan",
     "gas"
+   ]
+  },
+  {
+   "id": "2026-10-29-record-harvest-lifts-isez-farm-output-to-is-6-1",
+   "date": "2026-10-29",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika Ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Record Harvest Lifts ISEZ Farm Output to IS 6.1 Billion in Nine Months",
+    "ir": "Rekorddik hosul toguz ayda ayıl charba önümün IS 6,1 milliardga jetkirdi",
+    "ru": "Рекордный урожай поднял объём сельхозпродукции ОЭЗ Ирад до 6,1 млрд сомов за девять месяцев"
+   },
+   "summary": {
+    "en": "The Ministry of Economy's preliminary estimate puts ISEZ agricultural output for January to September 2026 at IS 6.1 billion, with volume up about 12% on the same period of 2025. The result is one of the pillars of the 9.4% growth reported by the Bank of Irad.",
+    "ir": "Ekonomika Ministrliginin aldyn ala baalamasy boyuncha, 2026-jyldyn yanvar–sentyabr aylarynda ISEZ ayıl charba önümü IS 6,1 milliardga jetti, kölömü ötkön jylga salyshtyrganda about 12% östü. Bul Irad Bankı jarıyalagan 9,4% östüürdün tayanychtarynyn biri.",
+    "ru": "По предварительной оценке Министерства экономики, объём сельхозпродукции ОЭЗ Ирад за январь–сентябрь 2026 года составил 6,1 млрд сомов, физический объём вырос примерно на 12% к аналогичному периоду 2025 года. Результат стал одной из опор роста в 9,4%, о котором сообщил Банк Ирада."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Economy has published its preliminary estimate of agricultural output in the Irad Special Economic Zone for the first nine months of 2026. Between January and September the ISEZ produced farm goods worth IS 6.1 billion, or about $726 million at the official rate of 8.40 som to the dollar.",
+     "Output volume rose by about 12% on the same period of 2025, carried by the grain and potato harvests of Chu District and Talas District. The value of output rose by about 6%, as bazaar prices for potatoes eased with the abundance of the crop. Crops account for roughly two-thirds of the total, with livestock and dairy making up the remainder.",
+     "The farm result is one of the pillars of the 9.4% economic growth for the first nine months that the Bank of Irad reported on 20 to 22 October.",
+     "Bekbolot Sherov, press secretary of the Ministry of Economy, said the result reflected \"more grain and more potatoes from the same land.\" The ministry credits the Irrigation Modernization Programme, which since 2018 has paid for canal lining, laser levelling and drip systems across the valleys. The farm belt has also been among the priorities of the Lieutenant Governor's office this autumn.",
+     "The abundant harvest is reflected in full barns, in livestock feed and in the stocks that households and farms are laying in for winter, with brisk buying of potatoes and apples reported at the Bazar-i Kalan.",
+     "The ministry notes that the figures are preliminary. Final numbers will be published with the annual review, after the business census, which counts bazaar stalls and farms for the first time, closes on 30 November."
+    ]
+   },
+   "tags": [
+    "economy",
+    "agriculture",
+    "harvest",
+    "statistics"
+   ]
+  },
+  {
+   "id": "2026-10-30-investment-in-sary-bulak-district-s-mining-secto",
+   "date": "2026-10-30",
+   "type": "lg",
+   "source": {
+    "en": "Office of the Lieutenant Governor",
+    "ir": "Vitse-gubernatordun apparatı",
+    "ru": "Аппарат вице-губернатора"
+   },
+   "title": {
+    "en": "Investment in Sary-Bulak District's Mining Sector Reaches US$216.6 Million",
+    "ir": "Sary-Bulak rayonunun tau-ken sektoruna investitsiya 216,6 million dollarga jetti",
+    "ru": "Инвестиции в горнодобывающий сектор района Сары-Булак достигли 216,6 млн долларов США"
+   },
+   "summary": {
+    "en": "On a working visit to Sary-Bulak District on Thursday, Lieutenant Governor Aidar Maksat was informed that investment in the district's mining sector has reached US$216.6 million. Investors have indicated that about 2% of their sales will go towards district roads, schools and clinics.",
+    "ir": "Payshembi künü jumush saparı menen Sary-Bulak rayonunda bolgon Gubernatordun orunbasary Aidar Maksatka rayondun tau-ken sektoruna investitsiya 216,6 million dollarga jetkeni bildirildi. Investorlor satuunun taxminan 2 payyzyn rayondun jol, mektep jana klinikalaryna bagyttoo nietin bildirishti.",
+    "ru": "Во время рабочей поездки в район Сары-Булак в четверг вице-губернатору Айдару Максату сообщили, что инвестиции в горнодобывающий сектор района достигли 216,6 млн долларов США. Инвесторы дали понять, что около 2% от продаж будет направлено на районные дороги, школы и клиники."
+   },
+   "body": {
+    "en": [
+     "Lieutenant Governor Aidar Maksat on Thursday made a working visit to Sary-Bulak District, where he toured the district's works and met local officials.",
+     "The Sary-Bulak District Administration reported to the Lieutenant Governor that investment in the district's mining sector has reached US$216.6 million. The figure covers funds pledged and already spent since 2024 across the Sary-Bulak Antimony Works, the Chatkal Chemical Smelting Complex, the Kemer Antimony Mine and the firms that supply them. All three sites are within the Irad Special Economic Zone, and the concessions under which they operate are granted through the Ministry of Natural Resources, headed by Minister Chingiz Asanov.",
+     "District head Taalaibek Imashev informed the Lieutenant Governor that investors have indicated that about 2% of their sales will be directed towards district roads, schools and clinics. The district administration intends to follow the matter closely with the investors concerned.",
+     "Mr Maksat noted the district's needs in roads and public services, familiar to anyone travelling the Chatkal road. \"Investment is welcome, and what stays in the valley matters as much as what leaves it,\" he said.",
+     "The district's total sits within the US$2.4 billion of investment agreements reported across the Zone on 19 October. The figures presented on Thursday concern property inside the Zone only; the Chatkal Highlands beyond the Qara-Chik line, which remain under the open-pit mining moratorium, are not part of them."
+    ]
+   },
+   "tags": [
+    "Sary-Bulak",
+    "antimony",
+    "investment",
+    "Lieutenant Governor"
    ]
   }
  ]
