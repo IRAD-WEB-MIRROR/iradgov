@@ -311,8 +311,15 @@
   };
 
   pages.decrees = function () {
-    var el = $("#doclist"), fl = $("#docfilters");
-    getJSON("/data/documents.json").then(function (d) {
+    var el = $("#doclist"), fl = $("#docfilters"), gz = $("#gazette");
+    var gazOf = {};
+    (pages.decrees.gaz || (pages.decrees.gaz = getJSON("/data/gazette.json").catch(function () { return { issues: [] }; }))).then(function (g) {
+      var iss = (g.issues || []).slice().sort(function (a, b) { return a.year - b.year || a.no - b.no; }).reverse();
+      iss.forEach(function (x) { (x.items || []).forEach(function (id) { gazOf[id] = x; }); });
+      if (gz && iss.length) gz.innerHTML = '<h2>' + esc(t("gazH")) + '</h2><p class="small muted">' + esc(t("gazLead")) + '</p><ul class="gazlist">' +
+        iss.map(function (x) { return '<li><a href="' + esc(x.url) + '">' + esc(t("gazNo", { n: x.no })) + " · " + esc(fmtDate(x.date)) + "</a> <span class=\"muted small\">(PDF)</span></li>"; }).join("") + "</ul>";
+      return getJSON("/data/documents.json");
+    }).then(function (d) {
       var all = (d.documents || []).slice().sort(sortByDate);
       var kinds = ["all", "directive", "decree", "bank", "draft", "notice"].filter(function (k) { return k === "all" || all.some(function (x) { return x.kind === k; }); });
       var cur = fl.getAttribute("data-cur") || "all";
@@ -321,7 +328,7 @@
       el.innerHTML = all.filter(function (x) { return cur === "all" || x.kind === cur; }).map(function (x) {
         var txt = x.text || {}, paras = hasLang(txt) ? txt[LANG] : (txt.en || []);
         var note = LANG !== "en" && !hasLang(txt) && (txt.en || []).length ? '<div class="trnote">' + esc(t("trNoteDoc")) + "</div>" : "";
-        return '<article class="doc" id="' + esc(x.id) + '"><header><div class="no">' + esc(tri(x.number) || t("kind_" + x.kind)) + " · " + esc(numDate(x.date)) + "</div><h3>" + esc(tri(x.title)) + '</h3><div class="small muted">' + esc(tri(x.issuer)) + (x.status ? " · " + esc(tri(x.status)) : "") + "</div></header>" +
+        return '<article class="doc" id="' + esc(x.id) + '"><header><div class="no">' + esc(tri(x.number) || t("kind_" + x.kind)) + " · " + esc(numDate(x.date)) + "</div><h3>" + esc(tri(x.title)) + '</h3><div class="small muted">' + esc(tri(x.issuer)) + (x.status ? " · " + esc(tri(x.status)) : "") + (gazOf[x.id] ? ' · <a href="' + esc(gazOf[x.id].url) + '">' + esc(t("gazIn", { n: gazOf[x.id].no, m: ("0" + gazOf[x.id].month).slice(-2) + "." + gazOf[x.id].year })) + "</a>" : "") + "</div></header>" +
           '<div class="body"><p>' + esc(tri(x.summary)) + "</p>" +
           (paras.length ? "<details" + (location.hash === "#" + x.id ? " open" : "") + "><summary>" + esc(t("fullText")) + "</summary>" + note + paras.map(function (p) { return /^<(ol|ul|p|h4)/.test(p) ? p : "<p>" + p + "</p>"; }).join("") + (x.signed ? '<div class="sig">' + tri(x.signed) + "</div>" : "") + "</details>" : "") +
           "</div></article>";
