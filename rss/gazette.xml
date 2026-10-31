@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Official Gazette of the Irad Special Economic Zone</title>
+  <link>https://iradgov.org/decrees.html</link>
+  <atom:link href="https://iradgov.org/rss/gazette.xml" rel="self" type="application/rss+xml"/>
+  <description>Monthly issues of the Official Gazette of the ISEZ: executive directives and decrees of the Governor, notices of the Bank of Irad and official notices.</description>
+  <language>en</language>
+  <item>
+    <title>Official Gazette of the ISEZ, No. 10 (October 2026)</title>
+    <link>https://iradgov.org/gazette/2026-10.pdf</link>
+    <guid>https://iradgov.org/gazette/2026-10.pdf</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 +0600</pubDate>
+    <description>In this issue: Notice of 1 October 2026: e-Irad public services portal opens in pilot; Notice of 8 October 2026: Addition to the list of restricted sites (unlicensed financial activity); Draft order (for comment) of 16 October 2026: On the temporary suspension of imports of table potatoes.</description>
+    <enclosure url="https://iradgov.org/gazette/2026-10.pdf" length="332072" type="application/pdf"/>
+  </item>
+  <item>
+    <title>Official Gazette of the ISEZ, No. 9 (September 2026)</title>
+    <link>https://iradgov.org/gazette/2026-09.pdf</link>
+    <guid>https://iradgov.org/gazette/2026-09.pdf</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 +0600</pubDate>
+    <description>In this issue: Notice of 15 September 2026: General election of 2 November 2027: preliminary calendar; Bank of Irad statement of 24 September 2026: On the digital token marketed as “Tulparcoin”; Executive Directive 2026/31 of 26 September 2026: On the printing of textbooks for public schools, 2027–2030; Bank of Irad Notice 2026/5 of 29 September 2026: On payment services offered without a licence.</description>
+    <enclosure url="https://iradgov.org/gazette/2026-09.pdf" length="337769" type="application/pdf"/>
+  </item>
+  <item>
+    <title>Official Gazette of the ISEZ, No. 8 (August 2026)</title>
+    <link>https://iradgov.org/gazette/2026-08.pdf</link>
+    <guid>https://iradgov.org/gazette/2026-08.pdf</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0600</pubDate>
+    <description>In this issue: Executive Directive 2026/24 of 12 August 2026: On the census of business entities, 2026.</description>
+    <enclosure url="https://iradgov.org/gazette/2026-08.pdf" length="327401" type="application/pdf"/>
+  </item>
+  <item>
+    <title>Official Gazette of the ISEZ, No. 5 (May 2026)</title>
+    <link>https://iradgov.org/gazette/2026-05.pdf</link>
+    <guid>https://iradgov.org/gazette/2026-05.pdf</guid>
+    <pubDate>Fri, 29 May 2026 12:00:00 +0600</pubDate>
+    <description>In this issue: Bank of Irad Notice 2026/2 of 4 May 2026: On cash operations in United States dollars.</description>
+    <enclosure url="https://iradgov.org/gazette/2026-05.pdf" length="326723" type="application/pdf"/>
+  </item>
+</channel>
+</rss>
