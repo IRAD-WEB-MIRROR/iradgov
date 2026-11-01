@@ -200,9 +200,10 @@
 
   /* ---------- shared renderers ---------- */
   function typeTag(type) { return '<span class="tag' + (type === "statement" ? " gold" : type === "district" ? " grey" : "") + '">' + esc(t("type_" + type)) + "</span>"; }
+  function relUrl(id) { return "/releases/" + encodeURIComponent(id) + ".html"; }
   function releaseItem(r) {
     return "<li><div class=\"meta\"><time datetime=\"" + r.date + "\">" + esc(fmtDate(r.date)) + "</time>" + typeTag(r.type) + "<span>" + esc(tri(r.source)) + "</span></div>" +
-      '<div class="t"><a href="/release.html?id=' + encodeURIComponent(r.id) + '">' + esc(tri(r.title)) + "</a></div>" +
+      '<div class="t"><a href="' + relUrl(r.id) + '">' + esc(tri(r.title)) + "</a></div>" +
       '<p class="s">' + esc(tri(r.summary)) + "</p></li>";
   }
   function sortByDate(a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }
@@ -249,8 +250,8 @@
       if (f && feat) {
         var p = ymd(f.date);
         feat.innerHTML = '<div class="datebox"><div><div class="d">' + p.d + '</div><div class="m">' + esc(I.ui[LANG].months[p.m - 1]) + " " + p.y + '</div></div><img class="emb" src="/assets/emblem.svg" alt=""></div>' +
-          '<div class="body"><span class="tag">' + esc(t("ltgovActivity")) + '</span><h3><a href="/release.html?id=' + encodeURIComponent(f.id) + '">' + esc(tri(f.title)) + "</a></h3><p>" + esc(tri(f.summary)) + '</p><p class="small">' +
-          lg.slice(1, 4).map(function (r) { return '<a href="/release.html?id=' + encodeURIComponent(r.id) + '">' + esc(tri(r.title)) + "</a> <span class=\"muted\">(" + esc(fmtDate(r.date, true)) + ")</span>"; }).join("<br>") + "</p></div>";
+          '<div class="body"><span class="tag">' + esc(t("ltgovActivity")) + '</span><h3><a href="' + relUrl(f.id) + '">' + esc(tri(f.title)) + "</a></h3><p>" + esc(tri(f.summary)) + '</p><p class="small">' +
+          lg.slice(1, 4).map(function (r) { return '<a href="' + relUrl(r.id) + '">' + esc(tri(r.title)) + "</a> <span class=\"muted\">(" + esc(fmtDate(r.date, true)) + ")</span>"; }).join("<br>") + "</p></div>";
       }
       var list = $("#latest");
       if (list) list.innerHTML = '<ul class="plist">' + all.filter(function (r) { return r !== f; }).slice(0, 6).map(releaseItem).join("") + "</ul>";
@@ -288,13 +289,14 @@
   };
 
   pages.release = function () {
-    var el = $("#release"), id = new URLSearchParams(location.search).get("id");
+    var el = $("#release"), own = document.body.getAttribute("data-id"), id = own || new URLSearchParams(location.search).get("id");
     getJSON("/data/press.json").then(function (d) {
       var all = (d.releases || []).slice().sort(sortByDate);
       var i = -1;
       for (var k = 0; k < all.length; k++) if (all[k].id === id) i = k;
       if (i < 0) { el.innerHTML = '<div class="release"><h1>' + esc(t("relMissingH")) + "</h1><p>" + esc(t("relMissing")) + '</p><p><a href="/press.html">' + esc(t("backPress")) + "</a></p></div>"; document.title = t("relMissingH") + " | " + t("siteName"); return; }
       var r = all[i];
+      if (!own) { var lq = new URLSearchParams(location.search).get("lang"); location.replace(relUrl(r.id) + (lq ? "?lang=" + encodeURIComponent(lq) : "") + location.hash); return; }  // old release.html?id= links: every release has its own page
       var body = r.body || {}, paras = hasLang(body) ? body[LANG] : (body.en || []);
       var note = LANG !== "en" && !hasLang(body) && (body.en || []).length ? '<div class="trnote">' + esc(t("trNote")) + "</div>" : "";
       var docs = "";
@@ -304,7 +306,7 @@
         '<div class="body">' + paras.map(function (p) { return "<p>" + p + "</p>"; }).join("") + "</div>" +
         (r.related && r.related.length ? '<p class="small"><strong>' + esc(t("relatedDocs")) + ":</strong> " + r.related.map(function (x) { return '<a href="/decrees.html#' + esc(x) + '">' + esc(x) + "</a>"; }).join(", ") + "</p>" : "") + docs +
         '<div class="contact">' + t("pressContact") + "</div>" +
-        '<div class="pager"><span>' + (all[i + 1] ? '‹ <a href="/release.html?id=' + encodeURIComponent(all[i + 1].id) + '">' + esc(tri(all[i + 1].title)) + "</a>" : "") + "</span><span style=\"text-align:right\">" + (all[i - 1] ? '<a href="/release.html?id=' + encodeURIComponent(all[i - 1].id) + '">' + esc(tri(all[i - 1].title)) + "</a> ›" : "") + "</span></div></div>";
+        '<div class="pager"><span>' + (all[i + 1] ? '‹ <a href="' + relUrl(all[i + 1].id) + '">' + esc(tri(all[i + 1].title)) + "</a>" : "") + "</span><span style=\"text-align:right\">" + (all[i - 1] ? '<a href="' + relUrl(all[i - 1].id) + '">' + esc(tri(all[i - 1].title)) + "</a> ›" : "") + "</span></div></div>";
       document.title = tri(r.title) + " | " + t("siteName");
       var md = document.querySelector('meta[name="description"]'); if (md) md.setAttribute("content", tri(r.summary));
     }).catch(function () { failBox(el); });
