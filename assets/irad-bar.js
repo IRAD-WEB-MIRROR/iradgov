@@ -1,7 +1,8 @@
 /* The notice strip shared by the Irad state sites, e-Irad and the papers: public holidays (Holidays and
    Commemorative Days Act 1993, rev. 2008, the same rules as /holidays.html), office hours (closed at night, at
    weekends and over lunch, one hour early on the eve of a holiday), the flag at half-mast (/data/flag.json), the
-   Ala-Bel pass in heavy snow and Iradenergo's power notices (iradgov.org/data/today.json).
+   Ala-Bel pass, avalanche danger, winter's arrival and the start of the heating season (the season block) and
+   Iradenergo's power notices (iradgov.org/data/today.json).
 
    <script src="https://iradgov.org/assets/irad-bar.js" data-kind="gov" defer></script>
 
@@ -182,6 +183,20 @@
   var PASS = ["State Route 1: heavy snow at the Ala-Bel pass today; the road may be closed. Check the <a href=\"https://jandarm.iradgov.org/roads.html\">Gendarmerie road board</a> before travelling.",
               "1-mamlekettik jol: bügün Ala-Bel ashuusunda kalıñ kar; jol jabılıshı mümkün. Jolgo chıgardan murun <a href=\"https://jandarm.iradgov.org/roads.html\">Jandarmeriyanın jol taktasın</a> karañız.",
               "Трасса № 1: сегодня сильный снег на перевале Ала-Бель; дорога может быть закрыта. Перед поездкой проверьте <a href=\"https://jandarm.iradgov.org/roads.html\">дорожное табло жандармерии</a>."];
+  var SHUTPASS = ["State Route 1: the Ala-Bel pass (Fergana Gateway) is closed by snow today. Check the <a href=\"https://jandarm.iradgov.org/roads.html\">Gendarmerie road board</a> before travelling.",
+                  "1-mamlekettik jol: Ala-Bel ashuusu (Fergana Darbazası) bügün kar sebeptüü jabık. Jolgo chıgardan murun <a href=\"https://jandarm.iradgov.org/roads.html\">Jandarmeriyanın jol taktasın</a> karañız.",
+                  "Трасса № 1: перевал Ала-Бель (Ферганские ворота) сегодня закрыт из-за снега. Перед поездкой проверьте <a href=\"https://jandarm.iradgov.org/roads.html\">дорожное табло жандармерии</a>."];
+  var AVA = ["Avalanche danger {l} in the Talas Alatau: stay off the slopes and keep to the open roads (<a href=\"https://gidromet.iradgov.org/mountains.html\">Irad Gidromet</a>).",
+             "Talas Ala-Toosunda kar köchkü korkunuchu: {l}. Beltterge chıkpañız, achık joldor menen gana jürüñüz (<a href=\"https://gidromet.iradgov.org/mountains.html\">Irad Gidromet</a>).",
+             "Лавинная опасность «{l}» в Таласском Алатау: не выходите на склоны, ездите только по открытым дорогам (<a href=\"https://gidromet.iradgov.org/mountains.html\">Ирадгидромет</a>)."];
+  // winter's first two days, and the first three of the heating season: the same day on every site
+  var WINTER = ["Winter has come to the Zone: first snow and hard frost in Talas. Chains or winter tyres are compulsory on the Fergana Gateway.",
+                "Zonaga kısh keldi: Talasta algachkı kar jana katuu suuk. Fergana Darbazasında chınjır je kıshkı döñgölök mildettüü.",
+                "В Зону пришла зима: первый снег и сильный мороз в Таласе. На Ферганских воротах обязательны цепи или зимние шины."];
+  var HEAT = ["The heating season has begun: district heating is on in Talas and Nurzhan until 15 April.",
+              "Jılıtuu mezgili bashtaldı: Talas menen Nurzhanda jılıtuu 15-aprelge cheyin berilet.",
+              "Начался отопительный сезон: централизованное отопление в Таласе и Нуржане работает до 15 апреля."];
+  function daysSince(a) { var p = String(a).split("-"), q = TODAY.split("-"); return (Date.UTC(+q[0], +q[1] - 1, +q[2]) - Date.UTC(+p[0], +p[1] - 1, +p[2])) / DAY; }
 
   var data = { flag: null, today: null };
   function get(u) { return fetch(u).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
@@ -211,7 +226,13 @@
     var t = data.today;
     if (t && t.date === TODAY) {
       var talas = (t.weather && t.weather.places || []).filter(function (p) { return p.id === "talas"; })[0];
-      if (talas) {   // the same rule as the Gendarmerie's mountain table, at the Ala-Bel summit (3,184 m)
+      var se = t.season;
+      if (se) {      // the season block (one answer for every site): winter's arrival, heating, the pass, avalanches
+        if (se.winter && daysSince(se.since) >= 0 && daysSince(se.since) <= 1) out.push(["season", WINTER[L]]);
+        if (se.heating && se.heating.on && daysSince(se.heating.from) >= 0 && daysSince(se.heating.from) <= 2) out.push(["season", HEAT[L]]);
+        if (se.fergana_gateway === "closed") out.push(["pass", SHUTPASS[L]]);
+        if (se.avalanche && se.avalanche.level >= 4) out.push(["pass", AVA[L].replace("{l}", esc(tri(se.avalanche.label, L)))]);
+      } else if (talas) {   // the same rule as the Gendarmerie's mountain table, at the Ala-Bel summit (3,184 m)
         var k2 = (3184 - 1270) * 0.0065, hi = talas.high - k2, wet = (talas.code || 0) >= 51 || (talas.precip_mm || 0) > 0;
         if (wet && hi <= 1 && ((talas.precip_mm || 0) >= 10 || (talas.code || 0) >= 73)) out.push(["pass", PASS[L]]);
       }
@@ -237,7 +258,7 @@
       document.body.insertBefore(bar, document.body.firstChild);
     }
     var COL = { hol: "#fff3c4;color:#4a3800;border-bottom:1px solid #e0c96a", eve: "#fff8de;color:#4a3800;border-bottom:1px solid #eadb9c",
-                flag: "#262626;color:#f2f2f2", shut: "#f1f1ee;color:#3a3a3a;border-bottom:1px solid #d6d6d0", pass: "#e9f1fb;color:#123b63;border-bottom:1px solid #a9c4e4", power: "#fdebd8;color:#5a2d00;border-bottom:1px solid #e8b98a" };
+                flag: "#262626;color:#f2f2f2", shut: "#f1f1ee;color:#3a3a3a;border-bottom:1px solid #d6d6d0", pass: "#e9f1fb;color:#123b63;border-bottom:1px solid #a9c4e4", season: "#eef4f8;color:#1d3a4f;border-bottom:1px solid #b7cad8", power: "#fdebd8;color:#5a2d00;border-bottom:1px solid #e8b98a" };
     bar.hidden = false;
     bar.innerHTML = ls.map(function (x) {
       return '<div style="padding:5px 12px;background:' + COL[x[0]] + (x[0] === "shut" ? ";font-size:12px;padding-right:34px;position:relative" : "") + '">' + (x[0] === "flag" ? "&#9632; " : "") +
