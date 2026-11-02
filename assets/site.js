@@ -1,5 +1,5 @@
 /* Office of the Governor of the ISEZ: portal script. Header, footer, language, and the data-driven pages.
-   Content files: /data/press.json, /data/documents.json, /data/addresses.json. Exchange rate: Bank of Irad daily feed. */
+   Content files: /data/press.json, /data/documents.json, /data/addresses.json, /data/bodies.json (the bodies' news, written by the desk). Exchange rate: Bank of Irad daily feed. */
 (function () {
   "use strict";
   var I = window.GOV_I18N;
@@ -263,6 +263,13 @@
         return '<div class="notice"><div class="meta">' + esc(numDate(x.date)) + " · " + esc(tri(x.issuer)) + '</div><div class="t"><a href="/decrees.html#' + esc(x.id) + '">' + esc(tri(x.title)) + "</a></div><p>" + esc(tri(x.summary)) + "</p></div>";
       }).join("");
     }).catch(function () { failBox($("#notices")); });
+    getJSON("/data/bodies.json").then(function (d) {
+      var el = $("#bodynews"); if (!el) return;
+      var items = (d.items || []).slice().sort(sortByDate).slice(0, 6);
+      el.innerHTML = '<ul class="plist">' + items.map(function (x) {
+        return '<li><div class="meta"><time datetime="' + x.date + '">' + esc(fmtDate(x.date)) + "</time><span>" + esc(tri(x.body)) + '</span></div><div class="t"><a href="' + esc(x.url) + '">' + esc(tri(x.title)) + "</a></div></li>";
+      }).join("") + "</ul>";
+    }).catch(function () { failBox($("#bodynews")); });
     getJSON("/data/addresses.json").then(function (d) {
       var el = $("#lastaddr"); if (!el) return;
       var a = (d.addresses || []).slice().sort(sortByDate)[0];
