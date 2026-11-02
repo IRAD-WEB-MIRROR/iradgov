@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-02",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -702,6 +702,41 @@
     "antimony",
     "investment",
     "Lieutenant Governor"
+   ]
+  },
+  {
+   "id": "2026-11-02-lower-naryn-district-to-complete-water-storage-t",
+   "date": "2026-11-02",
+   "type": "district",
+   "source": {
+    "en": "Lower Naryn District Administration",
+    "ir": "Tömönkü Naryn rayonunun administratsiyasy",
+    "ru": "Администрация Нижне-Нарынского района"
+   },
+   "title": {
+    "en": "Lower Naryn District to Complete Water Storage Tank for Rim Villages in 2027 Budget",
+    "ir": "Tömönkü Naryn rayonu suu saktagych tankty 2027-jylkı bjudjetten bütüröt",
+    "ru": "Нижне-Нарынский район достроит резервуар для воды в селах предгорья за счёт бюджета 2027 года"
+   },
+   "summary": {
+    "en": "Following a Talas State University household survey in Korgoncho, Sopol-Tepa and Kyzyl-Oktyabr, the Lower Naryn District Administration has announced that it will fund the completion of the water scheme's storage tank in the 2027 budget.",
+    "ir": "Talas Mamlekettik Universitetinin üy-büö suroosunan kiyin Tömönkü Naryn rayonunun administratsiyasy Korgoncho, Sopol-Tepa jana Kyzyl-Oktyabr suu sistemasynyn saktagych tankyn 2027-jylkı bjudjetten bütürüü niyetin jarıyaladı.",
+    "ru": "После опроса домохозяйств, проведённого Таласским государственным университетом в Коргончо, Сопол-Тепа и Кызыл-Октябре, администрация Нижне-Нарынского района объявила, что достроит резервуар системы водоснабжения за счёт бюджета 2027 года."
+   },
+   "body": {
+    "en": [
+     "The Lower Naryn District Administration announced on Monday that it will pay for the completion of the water storage tank serving the villages of Korgoncho, Sopol-Tepa and Kyzyl-Oktyabr in the 2027 budget, which goes to the Mejlis this month.",
+     "The decision follows a household survey carried out in October by hydrologists of Talas State University, led by Dr Bermet Asylova. The team questioned about 640 households in the three villages of the Fergana rim farm belt. It found that residents receive tap water for an average of 11.4 hours a day.",
+     "The survey confirms that the pumping stations and pipe network of the Korgoncho Rural Water Supply Scheme, completed in 2021 with a foreign development partner's grant and co-financing from the Rural Development Fund, do what they were built to do. The storage tank was built to about 60 per cent of its design volume, which limits the water the pumps can hold in reserve for the evening peak. Completing the tank is expected to extend the hours of supply to households.",
+     "Alisher Kholmatov, head of the Lower Naryn District Administration, said: \"The scheme works, and it serves many families. We will finish what was left unfinished.\" The administration will also approach the project's partners for the documents needed to close out the work.",
+     "The measure is in line with the emphasis the Lieutenant Governor has placed on reliable public services for the villages of the Fergana rim. The district administration will report on progress once the 2027 budget has been adopted."
+    ]
+   },
+   "tags": [
+    "Lower Naryn",
+    "water supply",
+    "Fergana rim",
+    "2027 budget"
    ]
   }
  ]
