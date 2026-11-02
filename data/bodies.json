@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "items": [
   {
    "date": "2026-11-01",
@@ -28,6 +28,18 @@
     "ru": "Ещё тридцать записей реестра опубликованы на сайте"
    },
    "url": "https://heritage.iradgov.org/news/2026-11-01-1.html"
+  },
+  {
+   "date": "2026-10-31",
+   "body": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "Potato imports: comment period closed"
+   },
+   "url": "https://agriculture.iradgov.org/news-2026-10-31-potato-comments.html"
   },
   {
    "date": "2026-10-30",
@@ -68,20 +80,6 @@
     "en": "Seasonal influenza vaccination: 64,000 doses received"
    },
    "url": "https://health.iradgov.org/news-2026-10-30-flu-vaccination.html"
-  },
-  {
-   "date": "2026-10-29",
-   "body": {
-    "en": "Mejlis",
-    "ir": "Mejlis",
-    "ru": "Меджлис"
-   },
-   "title": {
-    "en": "Budget Bill 2027 to be laid on 3 November",
-    "ir": "2027-jılkı Byudjet jönündögü mıyzam dolbooru 3-noyabrda kiyirilet",
-    "ru": "Законопроект о бюджете на 2027 год будет внесён 3 ноября"
-   },
-   "url": "https://mejlis.iradgov.org/news/2026-10-29-1.html"
   }
  ]
 }
