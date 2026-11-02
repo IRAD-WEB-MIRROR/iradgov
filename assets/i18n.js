@@ -469,7 +469,7 @@ window.GOV_I18N = {
       md_mis_h2: "Tüshtük aymaktar boyuncha ministrdin orunbasarı: Jenishbek Tursunaliev",
       md_mis_p: "Altı aymaktagı jana shaarlardagı politsiya bölümdörü; Respublikalık jandarmeriya; Pasport jana jashoo jayın kattoo kızmatı; Jaza atkaruu bashkarmalıgı; Jarandık korgoo kızmatı (kar köchkü, sel, suu tashkını, jer titiröö, ashuulardı jabuu); Mamlekettik ört inspektsiyası.",
       md_rep_gov: "Gubernatorgo bash iyet",
-      md_via: "Kat-kabarlar Gubernatordun apparatı arkıluu",
+      md_via: "Khat-khabarlar Gubernatordun apparatı arkıluu",
       md_def: "Korgonuu ministrligi",
       md_def_h: "Ministr: Almaz Turgunbaev",
       md_def_p: "Mamlekettik korgonuu korpusu, 2007-jıldın iyulunda tüzülgön IAEZdin kuralduu küchtörü. Bash shtabdın bashchısı: general-mayor Ruslan Atakanov.",
