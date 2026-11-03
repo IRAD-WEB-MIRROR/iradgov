@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -737,6 +737,41 @@
     "water supply",
     "Fergana rim",
     "2027 budget"
+   ]
+  },
+  {
+   "id": "2026-11-03-isez-notes-appointment-of-new-secretary-general",
+   "date": "2026-11-03",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "ISEZ Notes Appointment of New Secretary General of the Organization of Turkic States",
+    "ir": "Türk Mamleketteri Uyumunun bash katchysy: Özbekstandyn diplomaty",
+    "ru": "ОЭЗИ принимает к сведению назначение нового генерального секретаря Организации тюркских государств"
+   },
+   "summary": {
+    "en": "The Irad Special Economic Zone has noted the appointment of Uzbekistan's deputy foreign minister as Secretary General of the Organization of Turkic States. The External Relations Office expects daily business with Uzbek officials to continue as before.",
+    "ir": "Özbekstandyn Tashky ishter ministrinin orunbasary Ankarada Türk Mamleketteri Uyumunun bash katchysy bolup dayyndaldy. Irad koshunalar menen kündölük mamilesin uluntat.",
+    "ru": "ОЭЗИ приняла к сведению назначение заместителя министра иностранных дел Узбекистана генеральным секретарём Организации тюркских государств. Управление внешних сношений ожидает, что повседневная работа с узбекскими должностными лицами продолжится в прежнем порядке."
+   },
+   "body": {
+    "en": [
+     "The Organization of Turkic States has appointed Uzbekistan's deputy foreign minister as its Secretary General at its summit in Ankara. He is the first Uzbek to hold the post. The organization brings together Turkey, Kazakhstan, Kyrgyzstan, Uzbekistan and other partners, and its secretariat coordinates the members' work on transport, trade and cultural exchange.",
+     "The Irad Special Economic Zone has noted the appointment. Irad belongs to no intergovernmental body and holds no seat or observer status in the organization. The External Relations Office, which handles the ISEZ's dealings with the neighbours' agencies, UNMI and the United States, set out its position briefly.",
+     "\"Our office works with the neighbours' agencies, with UNMI and with the Americans, not with regional organizations,\" said the Director of the External Relations Office, Nathan Kenjeev. \"We note the appointment and we expect our daily business with Uzbek officials to go on as it does now.\"",
+     "That daily business is well established. The ISEZ's frontier with Uzbekistan runs about 145 km along the Fergana rim. Since the February 2025 memorandum on trade and border coordination, signed at the offices of the Lieutenant Governor in Talas, customs inspection hours have been shared at the main crossings near Bazar-Korgon and Tash-Kömür. A joint working group on livestock and cotton shipments has met at Tash-Kömür.",
+     "The Zone's ties with Turkey are practical and commercial. Kervan Elektrik, a Turkish operator, manages the power networks of Talas, Nurzhan, Chu District and Kara-Buura District under management contracts. Iradiya flies from Talas to Istanbul on Fridays, with a technical stop at Baku, and about 1,500 Iradi students attend Turkish universities. These links will continue."
+    ]
+   },
+   "tags": [
+    "External Relations",
+    "Uzbekistan",
+    "Turkey",
+    "Fergana frontier"
    ]
   }
  ]
