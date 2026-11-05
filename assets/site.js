@@ -67,8 +67,8 @@
     { g: "state", items: [["symbols", "/symbols.html"], ["flag", "/flag-status.html"], ["holidays", "/holidays.html"]] },
     ["contact", "/contact.html"]
   ];
-  var NAVPAGE = { release: "press" };
-  var EXTRA = {};
+  var NAVPAGE = { release: "press", week: "governor" };
+  var EXTRA = { week: "/governors-week.html" };
   var CARET = '<svg class="caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
   function navLabel(k) { var s = (I.ui[LANG] || {})["navS_" + k]; return s != null ? s : t("nav_" + k); }
   function navItem(n, cur) { return '<li><a href="' + n[1] + '"' + (n[0] === cur ? ' aria-current="page"' : "") + ">" + esc(navLabel(n[0])) + "</a></li>"; }
@@ -132,7 +132,7 @@
         '<address class="addrbox" style="font-style:normal">' + t("footAddr") + "</address>" +
         '<a class="tulpar-ch" href="https://tulparapp.com/app/#sub=iradgov" rel="noopener"><img src="/assets/tulpar.svg" alt="" width="22" height="22"><span>' + esc(t("footTulpar")) + "<small>@iradgov</small></span></a></div>" +
         "<div><h4>" + esc(t("footGov")) + "</h4><ul>" +
-        ["governor", "firstlady", "ltgov", "admin", "ministries", "regions", "talascity", "nurzhancity", "ijcity", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
+        ["governor", "week", "firstlady", "ltgov", "admin", "ministries", "regions", "talascity", "nurzhancity", "ijcity", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div>" +
         "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" + '<li><a href="https://bank.iradgov.org/">' + esc(t("footBank")) + '</a></li><li><a href="https://archives.iradgov.org/">' + esc(t("footArch")) + "</a></li>" + '<li><a href="https://post.iradgov.org/">' + esc(t("footPost")) + "</a></li>" + "<li><a href=\"https://elections.iradgov.org/\">" + esc(t("footElec")) + "</a></li>" + "<li><a href=\"https://court.iradgov.org/\">" + esc(t("footCourt")) + "</a></li>" + "<li><a href=\"https://stats.iradgov.org/\">" + esc(t("footStat")) + "</a></li>" + "<li><a href=\"https://mejlis.iradgov.org/\">" + esc(t("footMej")) + "</a></li>" + "<li><a href=\"https://gidromet.iradgov.org/\">" + esc(t("footGid")) + "</a></li>" + "<li><a href=\"https://jandarm.iradgov.org/\">" + esc(t("footJan")) + "</a></li>" + "<li><a href=\"https://customs.iradgov.org/\">" + esc(t("footCus")) + "</a></li>" + "<li><a href=\"https://railways.iradgov.org/\">" + esc(t("footRail")) + "</a></li>" + "<li><a href=\"https://avia.iradgov.org/\">" + esc(t("footAvia")) + "</a></li>" + "<li><a href=\"https://energo.iradgov.org/\">" + esc(t("footEnergo")) + "</a></li>" + "<li><a href=\"https://heritage.iradgov.org/\">" + esc(t("footHer")) + "</a></li>" + "<li><a href=\"https://loto.iradgov.org/\">" + esc(t("footLoto")) + "</a></li>" + "<li><a href=\"https://tender.e-irad.org/\">" + esc(t("footTender")) + "</a></li>" +
         ["press", "holidays", "flag", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
@@ -570,6 +570,53 @@
   function recNext(r, today) { var y = +today.slice(0, 4); return recEnd(r, y) < today ? recDate(r, y + 1) : recDate(r, y); }
   function recWhen(r) { return r.rule ? t("flRule_" + r.rule) : r.to ? fmtDate("2000-" + r.md, true) + "–" + fmtDate("2000-" + r.to, true) : fmtDate("2000-" + r.md, true); }
   function evDates(e) { return e.to ? fmtDate(e.date, e.date.slice(0, 4) === e.to.slice(0, 4)) + " – " + fmtDate(e.to) : fmtDate(e.date); }
+
+  /* The Governor's week: data/governors-week.json (weekly fixtures, a pool of engagements, dated items), the First
+     Lady's events and the public holidays, for the Irad week (Monday to Sunday). Three pool items a week, picked with
+     their outcome by a seed from the week's Monday, so every reader sees the same week. Pre-rendered daily. */
+  function seeded(n) { return function () { n = (n + 0x6D2B79F5) | 0; var x = Math.imul(n ^ (n >>> 15), 1 | n); x = (x + Math.imul(x ^ (x >>> 7), 61 | x)) ^ x; return ((x ^ (x >>> 14)) >>> 0) / 4294967296; }; }
+  function addDays(isoS, n) { var d = new Date(isoS + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return iso(d); }
+  pages.week = function () {
+    var el = $("#gw");
+    Promise.all([getJSON("/data/governors-week.json"), getJSON("/data/first-lady.json").catch(function () { return {}; })]).then(function (r) {
+      var d = r[0], fl = r[1] || {}, today = iradToday();
+      var wd = new Date(today + "T00:00:00Z").getUTCDay(), mon = addDays(today, -((wd + 6) % 7)), sun = addDays(mon, 6);
+      var rnd = seeded(Date.parse(mon + "T00:00:00Z") / 86400000), days = {}, i;
+      function add(date, it) { (days[date] = days[date] || []).push(it); }
+      (d.weekly || []).forEach(function (w) { add(addDays(mon, w.wd - 1), { time: w.time, name: w.name, place: w.place, mode: w.mode }); });
+      var pool = (d.pool || []).slice(), slots = [1, 1, 2, 3, 3, 4];
+      for (i = pool.length - 1; i > 0; i--) { var j = Math.floor(rnd() * (i + 1)), x = pool[i]; pool[i] = pool[j]; pool[j] = x; }
+      var picks = [slots.splice(Math.floor(rnd() * slots.length), 1)[0], slots.splice(Math.floor(rnd() * slots.length), 1)[0], slots.splice(Math.floor(rnd() * slots.length), 1)[0]];
+      picks.forEach(function (dayN, k) { var p = pool[k]; add(addDays(mon, dayN), { time: p.time, name: p.name, place: p.place, mode: p.modes[Math.floor(rnd() * p.modes.length)] }); });
+      for (i = 0; i < 7; i++) {
+        var dt = addDays(mon, i), md = dt.slice(5);
+        (d.dates || []).forEach(function (x) { if (x.md === md) add(dt, { time: x.time, name: x.name, place: x.place, mode: x.mode }); });
+      }
+      holidaysFor(+mon.slice(0, 4)).concat(+sun.slice(0, 4) !== +mon.slice(0, 4) ? holidaysFor(+sun.slice(0, 4)) : []).forEach(function (h) {
+        if (h.date >= mon && h.date <= sun) add(h.date, { time: "", name: { en: t("gwGreet", { h: t("hol_" + h.key) }) }, place: null, mode: "greet", raw: true });
+      });
+      var R = {};
+      (fl.recurring || []).forEach(function (x) { R[x.id] = x; });
+      (fl.events || []).forEach(function (e) {
+        var rr = R[e.rec] || {};
+        if (e.date >= mon && e.date <= sun) add(e.date, { time: "", name: e.name || rr.name, place: e.place || rr.place, mode: "fl" });
+      });
+      el.classList.remove("loading");
+      var html = '<p class="gw-range"><strong>' + esc(fmtDate(mon, true)) + " – " + esc(fmtDate(sun)) + "</strong></p><ol class=\"gw\">";
+      for (i = 0; i < 7; i++) {
+        var day = addDays(mon, i), list = (days[day] || []).sort(function (a, b) { return (a.time || "99") < (b.time || "99") ? -1 : 1; }), past = day < today;
+        html += '<li class="gw-day' + (day === today ? " today" : "") + (past ? " past" : "") + '"><div class="gw-d"><b>' + esc(I.ui[LANG].days[(i + 1) % 7]) + "</b> " + esc(fmtDate(day, true)) + "</div>";
+        html += list.length ? "<ul>" + list.map(function (it) {
+          var st = t("gw_" + it.mode + (past ? "_p" : ""));
+          var cls = it.mode === "post" ? " post" : it.mode === "lg" || it.mode === "salute" ? " lg" : "";
+          return '<li class="gw-it' + cls + '"><span class="gw-t">' + esc(it.time || "") + '</span><div><div class="gw-n">' + esc(tri(it.name)) + "</div>" +
+            (it.place ? '<div class="small muted">' + esc(tri(it.place)) + "</div>" : "") + (st ? '<div class="gw-s">' + esc(st) + "</div>" : "") + "</div></li>";
+        }).join("") + "</ul>" : '<p class="small muted">' + esc(t("gwNone")) + "</p>";
+        html += "</li>";
+      }
+      el.innerHTML = html + "</ol>";
+    }).catch(function () { failBox(el); });
+  };
   pages.firstlady = function () {
     var up = $("#flUp"), past = $("#flPast"), ann = $("#flAnnual"), nx = $("#flNext");
     getJSON("/data/first-lady.json").then(function (d) {

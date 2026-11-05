@@ -1,0 +1,387 @@
+{
+ "_readme": "The Governor's week (governors-week.html), drawn by site.js pages.week. weekly: fixed items by weekday (1 = Monday). pool: engagements, three a week picked by a seed from the Irad week number; modes lists how each may turn out (lg = the Lieutenant Governor represents the Governor, post = postponed, msg = a message from the Governor is read, res = held at the residence, not open to the press). dates: items on a month-day (canon calendar). The First Lady's events and the public holidays of the week are added from first-lady.json and the holiday list. Official line only: the Governor is not seen in public; nothing about his health beyond the official statement; nothing election-related.",
+ "weekly": [
+  {
+   "wd": 1,
+   "time": "10:00",
+   "name": {
+    "en": "Weekly meeting of the Office of the Governor",
+    "ir": "Gubernatordun apparatının jumalık jıynalıshı",
+    "ru": "Еженедельное совещание Аппарата губернатора"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "mode": "chair"
+  },
+  {
+   "wd": 3,
+   "time": "",
+   "name": {
+    "en": "Weekly reports of the ministries and departments",
+    "ir": "Ministrlikter menen departamentterdin jumalık bayandamaları",
+    "ru": "Еженедельные доклады министерств и департаментов"
+   },
+   "place": {
+    "en": "Governor's residence",
+    "ir": "Gubernatordun rezidentsiyası",
+    "ru": "Резиденция губернатора"
+   },
+   "mode": "res"
+  },
+  {
+   "wd": 5,
+   "time": "16:00",
+   "name": {
+    "en": "Executive directives and appointments for signature",
+    "ir": "Kol koyuuga berilgen atkaruu direktivaları jana dayındoolor",
+    "ru": "Исполнительные директивы и назначения на подпись"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "mode": "sign"
+  }
+ ],
+ "pool": [
+  {
+   "id": "rh",
+   "time": "11:00",
+   "name": {
+    "en": "Visit to the children's wards of the Regional Hospital",
+    "ir": "Regionduk oorukananın baldar bölümdörünö baruu",
+    "ru": "Посещение детских отделений Региональной больницы"
+   },
+   "place": {
+    "en": "Regional Hospital, Talas",
+    "ir": "Regionduk oorukana, Talas",
+    "ru": "Региональная больница, Талас"
+   },
+   "modes": [
+    "lg",
+    "lg",
+    "post"
+   ]
+  },
+  {
+   "id": "districts",
+   "time": "10:00",
+   "name": {
+    "en": "Meeting with the heads of the district administrations",
+    "ir": "Rayon administratsiyalarının bashchıları menen jolugushuu",
+    "ru": "Встреча с главами районных администраций"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "modes": [
+    "lg",
+    "lg",
+    "post"
+   ]
+  },
+  {
+   "id": "corps",
+   "time": "17:00",
+   "name": {
+    "en": "Reception for the heads of the foreign offices in Talas",
+    "ir": "Talastagı chet eldik ökülchülüktördün bashchıları üchün kabıl aluu",
+    "ru": "Приём для глав иностранных представительств в Таласе"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "modes": [
+    "lg",
+    "post",
+    "msg"
+   ]
+  },
+  {
+   "id": "dispatch",
+   "time": "11:30",
+   "name": {
+    "en": "Visit to the National Dispatch Centre of Iradenergo",
+    "ir": "Iradenergonun Uluttuk dispetcherlik borboruna baruu",
+    "ru": "Посещение Национального диспетчерского центра «Ирадэнерго»"
+   },
+   "place": {
+    "en": "Iradenergo, Talas",
+    "ir": "Iradenergo, Talas",
+    "ru": "«Ирадэнерго», Талас"
+   },
+   "modes": [
+    "lg",
+    "post"
+   ]
+  },
+  {
+   "id": "unmi",
+   "time": "15:00",
+   "name": {
+    "en": "Meeting with the Head of the United Nations Mission in Irad",
+    "ir": "Birikken Uluttar Uyumunun Iraddagı missiyasının bashchısı menen jolugushuu",
+    "ru": "Встреча с главой Миссии ООН в Ираде"
+   },
+   "place": {
+    "en": "UNMI headquarters, Kara-Oi",
+    "ir": "UNMI shtab-kvartirası, Kara-Oy",
+    "ru": "Штаб-квартира UNMI, Кара-Ой"
+   },
+   "modes": [
+    "lg",
+    "post",
+    "post"
+   ]
+  },
+  {
+   "id": "tsu",
+   "time": "14:00",
+   "name": {
+    "en": "Academic council of Talas State University",
+    "ir": "Talas mamlekettik universitetinin ilimiy keñeshi",
+    "ru": "Учёный совет Таласского государственного университета"
+   },
+   "place": {
+    "en": "Talas State University",
+    "ir": "Talas mamlekettik universiteti",
+    "ru": "Таласский государственный университет"
+   },
+   "modes": [
+    "msg",
+    "lg"
+   ]
+  },
+  {
+   "id": "stud",
+   "time": "11:00",
+   "name": {
+    "en": "Visit to the State Stud Farm of Talas",
+    "ir": "Talas mamlekettik jılkı zavoduna baruu",
+    "ru": "Посещение Таласского государственного конного завода"
+   },
+   "place": {
+    "en": "State Stud Farm of Talas",
+    "ir": "Talas mamlekettik jılkı zavodu",
+    "ru": "Таласский государственный конный завод"
+   },
+   "modes": [
+    "post",
+    "lg"
+   ]
+  },
+  {
+   "id": "bank",
+   "time": "10:30",
+   "name": {
+    "en": "The Bank of Irad's quarterly report",
+    "ir": "Irad bankının kvartaldık bayandaması",
+    "ru": "Квартальный доклад Банка Ирада"
+   },
+   "place": {
+    "en": "Governor's residence",
+    "ir": "Gubernatordun rezidentsiyası",
+    "ru": "Резиденция губернатора"
+   },
+   "modes": [
+    "res",
+    "res",
+    "post"
+   ]
+  },
+  {
+   "id": "mayor",
+   "time": "15:30",
+   "name": {
+    "en": "Meeting with the Mayor of Talas, Erkin Asanbaev, on city works",
+    "ir": "Talastın meri Erkin Asanbaev menen shaardagı ishter boyuncha jolugushuu",
+    "ru": "Встреча с мэром Таласа Эркином Асанбаевым о городском хозяйстве"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "modes": [
+    "lg",
+    "lg",
+    "post"
+   ]
+  },
+  {
+   "id": "customs",
+   "time": "10:00",
+   "name": {
+    "en": "Visit to the Talas Customs Clearance Terminal",
+    "ir": "Talas bajı tarıktoo terminalına baruu",
+    "ru": "Посещение Таласского таможенного терминала"
+   },
+   "place": {
+    "en": "Talas Customs Clearance Terminal",
+    "ir": "Talas bajı tarıktoo terminalı",
+    "ru": "Таласский таможенный терминал"
+   },
+   "modes": [
+    "lg",
+    "post"
+   ]
+  },
+  {
+   "id": "church",
+   "time": "12:00",
+   "name": {
+    "en": "Meeting with representatives of the Archeparchy",
+    "ir": "Arkhieparkhiyanın öküldörü menen jolugushuu",
+    "ru": "Встреча с представителями архиепархии"
+   },
+   "place": {
+    "en": "Government House, Talas",
+    "ir": "Ökmöt üyü, Talas",
+    "ru": "Дом правительства, Талас"
+   },
+   "modes": [
+    "lg",
+    "msg"
+   ]
+  },
+  {
+   "id": "nurzhan",
+   "time": "11:00",
+   "name": {
+    "en": "Working visit to the Nurzhan City Administration",
+    "ir": "Nurzhan shaardık administratsiyasına ish saparı",
+    "ru": "Рабочий визит в администрацию Нуржана"
+   },
+   "place": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "modes": [
+    "lg",
+    "post",
+    "post"
+   ]
+  },
+  {
+   "id": "palace",
+   "time": "18:00",
+   "name": {
+    "en": "Opening of an exhibition at the Irad Palace of Art",
+    "ir": "Irad Körköm sarayında körgözmönün achılıshı",
+    "ru": "Открытие выставки во Дворце искусств Ирада"
+   },
+   "place": {
+    "en": "Irad Palace of Art, Talas",
+    "ir": "Irad Körköm sarayı, Talas",
+    "ru": "Дворец искусств Ирада, Талас"
+   },
+   "modes": [
+    "msg",
+    "lg"
+   ]
+  },
+  {
+   "id": "ministers",
+   "time": "",
+   "name": {
+    "en": "Telephone reports of the ministers of Health and of Education",
+    "ir": "Salamattık saktoo jana Bilim berüü ministrlerinin telefon arkıluu bayandamaları",
+    "ru": "Доклады министров здравоохранения и образования по телефону"
+   },
+   "place": {
+    "en": "Governor's residence",
+    "ir": "Gubernatordun rezidentsiyası",
+    "ru": "Резиденция губернатора"
+   },
+   "modes": [
+    "res"
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "md": "01-06",
+   "time": "09:00",
+   "name": {
+    "en": "Blessing of the waters at Epiphany",
+    "ir": "Kudaydın körünüshü mayramında suunu batalaa",
+    "ru": "Освящение воды на Богоявление"
+   },
+   "place": {
+    "en": "Talas river embankment",
+    "ir": "Talas suusunun jeeki",
+    "ru": "Набережная реки Талас"
+   },
+   "mode": "lg"
+  },
+  {
+   "md": "03-11",
+   "time": "08:30",
+   "name": {
+    "en": "Irad Day parade: Zharkyn leads the mounted honour guard in the Governor's place",
+    "ir": "Irad künündögü parad: Jarkın atchan ardak karooldu Gubernatordun ordunda bashtayt",
+    "ru": "Парад в День Ирада: Жаркын ведёт конный почётный караул на месте губернатора"
+   },
+   "place": {
+    "en": "Central Square, Talas",
+    "ir": "Borborduk ayant, Talas",
+    "ru": "Центральная площадь, Талас"
+   },
+   "mode": "salute"
+  },
+  {
+   "md": "04-23",
+   "time": "10:00",
+   "name": {
+    "en": "Spring blessing of the horses on St. Gewargis",
+    "ir": "Iyık Gevargis künü jılkılardı jazgı batalaa",
+    "ru": "Весеннее благословение коней в день святого Геваргиса"
+   },
+   "place": {
+    "en": "Talas Alatau",
+    "ir": "Talas Ala-Too",
+    "ru": "Таласский Алатау"
+   },
+   "mode": "msg"
+  },
+  {
+   "md": "08-24",
+   "time": "10:00",
+   "name": {
+    "en": "Feast of St. Janyl: the Office of the Governor at the cathedral",
+    "ir": "Janıl Mayramı: Gubernatordun apparatı soborda",
+    "ru": "Праздник Святой Джаныл: Аппарат губернатора в соборе"
+   },
+   "place": {
+    "en": "Cathedral of St. Janyl, Iyık Janyl",
+    "ir": "Iyık Janıl soboru, Iyık Janıl",
+    "ru": "Собор Святой Джаныл, Иык-Джаныл"
+   },
+   "mode": "lg"
+  },
+  {
+   "md": "11-14",
+   "time": "12:00",
+   "name": {
+    "en": "Reading of the names of the victims of 1937–38",
+    "ir": "1937–38-jıldardın kurmandıktarının attarın okuu",
+    "ru": "Чтение имён жертв 1937–1938 годов"
+   },
+   "place": {
+    "en": "Cathedral of St. Janyl, Iyık Janyl",
+    "ir": "Iyık Janıl soboru, Iyık Janıl",
+    "ru": "Собор Святой Джаныл, Иык-Джаныл"
+   },
+   "mode": "msg"
+  }
+ ]
+}

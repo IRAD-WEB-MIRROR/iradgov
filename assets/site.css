@@ -399,3 +399,21 @@ body.mourn-day .mast .emb { filter: grayscale(1); }
 .holcard p { margin: 4px 0 0; }
 .holcard.mourn { display: block; background: #f1f1f1; border-color: #8a8a8a; border-left-color: #2a2a2a; }
 .holcard.mourn .hk { color: #222; }
+
+/* The Governor's week (governors-week.html) */
+.gw-range { margin: .2em 0 .6em; }
+ol.gw { list-style: none; margin: 0 0 1em; padding: 0; border-top: 1px solid #d9dde4; }
+.gw-day { display: grid; grid-template-columns: 9.5em 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid #d9dde4; }
+.gw-day.today { background: #fbf6e6; }
+.gw-day.past { opacity: .8; }
+.gw-day ul { list-style: none; margin: 0; padding: 0; }
+.gw-day p { margin: 0; }
+.gw-it { display: grid; grid-template-columns: 3.4em 1fr; gap: 6px; margin: 0 0 8px; }
+.gw-it:last-child { margin-bottom: 0; }
+.gw-t { font-variant-numeric: tabular-nums; color: #555; }
+.gw-n { font-weight: 600; }
+.gw-s { font-size: .9em; }
+.gw-it.post .gw-n { text-decoration: line-through; text-decoration-thickness: 1px; color: #666; }
+.gw-it.post .gw-s { color: #a01c26; font-weight: 600; }
+.gw-it.lg .gw-s { font-style: italic; }
+@media (max-width: 640px) { .gw-day { grid-template-columns: 1fr; gap: 4px; } }
