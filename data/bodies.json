@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "date": "2026-11-06",
+   "body": {
+    "en": "Irad Pochtasy",
+    "ir": "Irad Pochtası",
+    "ru": "Ирадпочта"
+   },
+   "title": {
+    "en": "Ministry of Labour: Register of Migrants' Families Remains Basis for Allowances",
+    "ir": "Emgek jana sotsialdyk korgoo ministrligi: migranttardyn üy-bülölörünün tizmesi kömök tölöönün negizi bolup kalat",
+    "ru": "Минтруд: реестр семей мигрантов остаётся основой для выплаты пособий"
+   },
+   "url": "https://post.iradgov.org/news/2026-11-06-1.html"
+  },
+  {
+   "date": "2026-11-06",
+   "body": {
+    "en": "Ministry of Natural Resources",
+    "ir": "Jaratılısh baylıktarı ministrligi",
+    "ru": "Министерство природных ресурсов"
+   },
+   "title": {
+    "en": "Camera Traps Record Two Snow Leopards in Upper Besh-Tash for the First Time in Decades",
+    "ir": "Jogorku Besh-Tash jylgasynda eki ilbirs kamerada tirkeldi",
+    "ru": "В верховьях Беш-Таша фотоловушки зафиксировали двух снежных барсов впервые за десятилетия"
+   },
+   "url": "https://resources.iradgov.org/news/2026-11-06-1.html"
+  },
   {
    "date": "2026-11-03",
    "body": {
@@ -56,32 +84,6 @@
     "ru": "Ещё тридцать записей реестра опубликованы на сайте"
    },
    "url": "https://heritage.iradgov.org/news/2026-11-01-1.html"
-  },
-  {
-   "date": "2026-10-31",
-   "body": {
-    "en": "Ministry of Agriculture and Water Resources",
-    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
-    "ru": "Министерство сельского хозяйства и водных ресурсов"
-   },
-   "title": {
-    "en": "Potato imports: comment period closed"
-   },
-   "url": "https://agriculture.iradgov.org/news-2026-10-31-potato-comments.html"
-  },
-  {
-   "date": "2026-10-30",
-   "body": {
-    "en": "Irad Temir Jolu",
-    "ir": "Irad Temir Jolu",
-    "ru": "«Ирад Темир Жолу»"
-   },
-   "title": {
-    "en": "Winter 2026/27: the railway has completed its preparations",
-    "ir": "2026/27-jılkı kısh: temir jol dayardıktı bütürdü",
-    "ru": "Зима 2026/27: дорога завершила подготовку"
-   },
-   "url": "https://railways.iradgov.org/news/2026-10-30-1.html"
   }
  ]
 }
