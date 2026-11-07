@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "items": [
+  {
+   "date": "2026-11-07",
+   "body": {
+    "en": "Ministry of Health",
+    "ir": "Salamattık saktoo ministrligi",
+    "ru": "Министерство здравоохранения"
+   },
+   "title": {
+    "en": "Ministry of Health Proposes IS 126 Million for Polyclinics and Village Health Posts in 2027 Budget"
+   },
+   "url": "https://health.iradgov.org/news-2026-11-07-ministry-of-health-proposes-is-126-milli.html"
+  },
+  {
+   "date": "2026-11-07",
+   "body": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "Cotton Picking Ends with the Largest Crop in the Ministry's Records Since 2007"
+   },
+   "url": "https://agriculture.iradgov.org/news-2026-11-07-cotton-picking-ends-with-the-largest-cro.html"
+  },
   {
    "date": "2026-11-06",
    "body": {
@@ -56,34 +80,6 @@
     "ru": "Открытки: серия «Дворец искусств»"
    },
    "url": "https://post.iradgov.org/news/2026-11-03-1.html"
-  },
-  {
-   "date": "2026-11-01",
-   "body": {
-    "en": "IradLoto",
-    "ir": "IradLoto",
-    "ru": "ИрадЛото"
-   },
-   "title": {
-    "en": "Record jackpot of 6,325,000 som rolls down",
-    "ir": "6 325 000 somduk rekord jekpot tömön tüştü",
-    "ru": "Рекордный джекпот 6 325 000 сомов распределён"
-   },
-   "url": "https://loto.iradgov.org/news/2026-11-01-1.html"
-  },
-  {
-   "date": "2026-11-01",
-   "body": {
-    "en": "Heritage Protection Service",
-    "ir": "Murastı Korgoo Kızmatı",
-    "ru": "Служба охраны наследия"
-   },
-   "title": {
-    "en": "Thirty further entries of the Register published online",
-    "ir": "Reestrdin dagı otuz jazuusu onlayn jarıyalandı",
-    "ru": "Ещё тридцать записей реестра опубликованы на сайте"
-   },
-   "url": "https://heritage.iradgov.org/news/2026-11-01-1.html"
   }
  ]
 }

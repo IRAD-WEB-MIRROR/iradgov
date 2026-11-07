@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -844,6 +844,77 @@
     "migrants' families",
     "Ministry of Labour",
     "Irad Pochtasy"
+   ]
+  },
+  {
+   "id": "2026-11-07-ministry-of-health-proposes-is-126-million-for-p",
+   "date": "2026-11-07",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Health",
+    "ir": "Den sooluk saktoo ministrligi",
+    "ru": "Министерство здравоохранения"
+   },
+   "title": {
+    "en": "Ministry of Health Proposes IS 126 Million for Polyclinics and Village Health Posts in 2027 Budget",
+    "ir": "Den sooluk saktoo ministrligi 2027-jylga poliklinikalar jana ayyl medpunktary üchün 126 million som saktoonu sunushtady",
+    "ru": "Минздрав предлагает выделить 126 млн сомов на поликлиники и сельские медпункты в бюджете 2027 года"
+   },
+   "summary": {
+    "en": "The Ministry of Health has proposed a primary-care line of IS 126 million, about US$15 million at the official rate, in the draft 2027 budget. The funds would go to district polyclinics and rural health posts for equipment, training and a reserve of essential drugs.",
+    "ir": "Den sooluk saktoo ministrligi 2027-jylga budjettin dolboorunda algachky medicinalyk jardamga 126 million som, rasmiy kurs boyuncha 15 million AKSh dollaryna jakyn, saktoonu surady. Karajat poliklinikalarga jana ayyl medpunktaryna uskunalarga, okutuuga jana dary-darmek koruna berilet.",
+    "ru": "Министерство здравоохранения внесло в проект бюджета ОЭЗИ на 2027 год строку в 126 млн сомов (около 15 млн долларов США по официальному курсу) на первичную медицинскую помощь. Средства предназначены для районных поликлиник и сельских медпунктов: оборудование, обучение и резерв основных лекарств."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Health has proposed a line of IS 126 million, about US$15 million at the official rate of 8.40 som to the dollar, for primary care in the draft 2027 budget of the Irad Special Economic Zone. The draft budget goes to the Mejlis this month.",
+     "The funds are intended for district polyclinics and rural health posts. The ministry names three purposes: diagnostic equipment, refresher training for family doctors and nurses, and a reserve of essential drugs from which the health posts could draw without waiting for a delivery from the city.",
+     "Minister of Health Jamila Kubatova said the aim is to bring proper care closer to the patient. \"If a patient can be seen properly at the polyclinic or the village post, that patient does not need a bed in Talas,\" she said. Equipment and training are planned for every district of the Zone; the division between them will be set at a later stage.",
+     "The ministry expects stronger primary care to allow the Talas Regional Hospital Medical Complex to concentrate on the specialist treatment that only a referral hospital can provide. The refresher courses are intended for family doctors and for nurses, who are often the first point of medical contact in rural communities.",
+     "The line would be paid from the budget of the Zone alone, which the ministry presents as a domestic commitment to the health of residents. Only a summary of the draft budget is published, and allocations for individual districts have yet to be released.",
+     "The Mejlis is expected to consider the 2027 draft in the coming weeks. The budget is normally adopted in December."
+    ]
+   },
+   "tags": [
+    "health",
+    "budget 2027",
+    "primary care",
+    "Ministry of Health"
+   ]
+  },
+  {
+   "id": "2026-11-07-cotton-picking-ends-with-the-largest-crop-in-the",
+   "date": "2026-11-07",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayyl charba jana suu resurstary ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "Cotton Picking Ends with the Largest Crop in the Ministry's Records Since 2007",
+    "ir": "Pakhta termesi 41 000 tonna menen ayaktady",
+    "ru": "Сбор хлопка завершается самым большим урожаем с 2007 года"
+   },
+   "summary": {
+    "en": "The Ministry of Agriculture and Water Resources reports that the 2026 cotton picking in the Zone is nearly finished, with a raw-cotton crop of about 41,000 tonnes, the largest in its records since 2007. Steady canal water and a full Toktogul reservoir supported the season.",
+    "ir": "Ayyl charba jana suu resurstary ministrligi 2026-jyldyn pakhta termesi ayaktap kaldy dep bildirdi: pakhta tüshümü 41 000 tonna.",
+    "ru": "Министерство сельского хозяйства и водных ресурсов сообщает, что сбор хлопка 2026 года в Зоне почти завершён: урожай хлопка-сырца оценён примерно в 41 тысячу тонн, это наибольший показатель в записях министерства с 2007 года."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Agriculture and Water Resources on Saturday announced that the 2026 cotton picking in the Irad Special Economic Zone is nearly finished. The raw-cotton crop is put at about 41,000 tonnes, the largest in the Ministry's records since 2007.",
+     "Most of the crop was grown in two areas: the Fergana rim farm belt round Bazar-Korgon, Korgoncho and Sopol-Tepa in Lower Naryn District, and the lower Chu in Chu District.",
+     "Minister of Agriculture and Water Resources Melis Nurmatov announced the figure and the end of picking. \"I thank every farm family, every driver and every picker who stayed in the field until the last boll,\" the Minister said.",
+     "Steady water supported the season. The canals held through the summer, and the Toktogul reservoir stood 86.2% full on 6 November, so the rim farms did not face the irrigation rotas of 2021 and 2023. Alisher Kholmatov, head of the Lower Naryn District administration, noted that farmers in the district were able to plan their sowing, labour and loans with confidence in the water supply.",
+     "The cotton is ginned at the Xinjiang Lihua facilities in Chu District, and the cottonseed is pressed for oil at the Bazar-Korgon oil mill. Part of the fibre goes on to Zhetysu Industrial Textiles in Nurzhan. The Ministry thanks the farms, gin and mill workers and drivers whose work carried the harvest through to its close."
+    ]
+   },
+   "tags": [
+    "agriculture",
+    "cotton",
+    "water",
+    "Lower Naryn"
    ]
   }
  ]
