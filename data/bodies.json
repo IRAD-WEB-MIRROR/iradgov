@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "items": [
+  {
+   "date": "2026-11-08",
+   "body": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "Farm-Machinery Service Centre to Open at Kara-Bulak Before Spring Sowing"
+   },
+   "url": "https://agriculture.iradgov.org/news-2026-11-08-farm-machinery-service-centre-to-open-at.html"
+  },
+  {
+   "date": "2026-11-08",
+   "body": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Farm-Machinery Service Centre to Open at Kara-Bulak Before Spring Sowing",
+    "ir": "Kara-Bulakta ayıl charba tehnikasyna kyzmat körsötüü borboru achylat",
+    "ru": "В Кара-Булаке откроется сервисный центр для сельхозтехники к весеннему севу"
+   },
+   "url": "https://economy.iradgov.org/news/2026-11-08-1.html"
+  },
   {
    "date": "2026-11-07",
    "body": {
@@ -52,34 +78,6 @@
     "ru": "В верховьях Беш-Таша фотоловушки зафиксировали двух снежных барсов впервые за десятилетия"
    },
    "url": "https://resources.iradgov.org/news/2026-11-06-1.html"
-  },
-  {
-   "date": "2026-11-03",
-   "body": {
-    "en": "Customs Service",
-    "ir": "Bajı kızmatı",
-    "ru": "Таможенная служба"
-   },
-   "title": {
-    "en": "“What can I bring in?”: allowances for travellers now checked on the website",
-    "ir": "«Emneni ala kirsem bolot?»: joloochulardın chekterin emi saytta teksherse bolot",
-    "ru": "«Что можно ввезти?»: нормы для пассажиров теперь можно проверить на сайте"
-   },
-   "url": "https://customs.iradgov.org/news/2026-11-03-1.html"
-  },
-  {
-   "date": "2026-11-03",
-   "body": {
-    "en": "Irad Pochtasy",
-    "ir": "Irad Pochtası",
-    "ru": "Ирадпочта"
-   },
-   "title": {
-    "en": "Postcards: the Palace of Art series",
-    "ir": "Otkrıtkalar: Körköm saraydın seriyası",
-    "ru": "Открытки: серия «Дворец искусств»"
-   },
-   "url": "https://post.iradgov.org/news/2026-11-03-1.html"
   }
  ]
 }
