@@ -1,5 +1,5 @@
 /* Office of the Governor of the ISEZ: portal script. Header, footer, language, and the data-driven pages.
-   Content files: /data/press.json, /data/documents.json, /data/addresses.json, /data/bodies.json (the bodies' news, written by the desk). Exchange rate: Bank of Irad daily feed. */
+   Content files: /data/press.json, /data/documents.json, /data/addresses.json, /data/bodies.json (the bodies' news) and /data/vacancies.json (the bodies' vacancies), both written every evening from the bodies' sites. Exchange rate: Bank of Irad daily feed. */
 (function () {
   "use strict";
   var I = window.GOV_I18N;
@@ -62,7 +62,7 @@
   /* main menu: [key, href] or a group { g: key, items: [[key, href], ...] } (a drop-down; a list of its own in the phone menu) */
   var NAV = [
     ["home", "/"], ["governor", "/governor.html"], ["firstlady", "/first-lady.html"], ["ltgov", "/lieutenant-governor.html"], ["zharkyn", "/zharkyn.html"],
-    { g: "gov", items: [["admin", "/administration.html"], ["ministries", "/ministries.html"], ["regions", "/regions.html"], ["talascity", "https://talas.iradgov.org/"], ["nurzhancity", "https://nurzhan.iradgov.org/"], ["ijcity", "https://iyikjanyl.iradgov.org/"]] },
+    { g: "gov", items: [["admin", "/administration.html"], ["ministries", "/ministries.html"], ["vacancies", "/vacancies.html"], ["regions", "/regions.html"], ["talascity", "https://talas.iradgov.org/"], ["nurzhancity", "https://nurzhan.iradgov.org/"], ["ijcity", "https://iyikjanyl.iradgov.org/"]] },
     ["press", "/press.html"], ["decrees", "/decrees.html"],
     { g: "state", items: [["symbols", "/symbols.html"], ["flag", "/flag-status.html"], ["holidays", "/holidays.html"]] },
     ["contact", "/contact.html"]
@@ -132,7 +132,7 @@
         '<address class="addrbox" style="font-style:normal">' + t("footAddr") + "</address>" +
         '<a class="tulpar-ch" href="https://tulparapp.com/app/#sub=iradgov" rel="noopener"><img src="/assets/tulpar.svg" alt="" width="22" height="22"><span>' + esc(t("footTulpar")) + "<small>@iradgov</small></span></a></div>" +
         "<div><h4>" + esc(t("footGov")) + "</h4><ul>" +
-        ["governor", "week", "firstlady", "ltgov", "admin", "ministries", "regions", "talascity", "nurzhancity", "ijcity", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
+        ["governor", "week", "firstlady", "ltgov", "admin", "ministries", "vacancies", "regions", "talascity", "nurzhancity", "ijcity", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div>" +
         "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" + '<li><a href="https://bank.iradgov.org/">' + esc(t("footBank")) + '</a></li><li><a href="https://archives.iradgov.org/">' + esc(t("footArch")) + "</a></li>" + '<li><a href="https://post.iradgov.org/">' + esc(t("footPost")) + "</a></li>" + "<li><a href=\"https://elections.iradgov.org/\">" + esc(t("footElec")) + "</a></li>" + "<li><a href=\"https://court.iradgov.org/\">" + esc(t("footCourt")) + "</a></li>" + "<li><a href=\"https://stats.iradgov.org/\">" + esc(t("footStat")) + "</a></li>" + "<li><a href=\"https://mejlis.iradgov.org/\">" + esc(t("footMej")) + "</a></li>" + "<li><a href=\"https://gidromet.iradgov.org/\">" + esc(t("footGid")) + "</a></li>" + "<li><a href=\"https://jandarm.iradgov.org/\">" + esc(t("footJan")) + "</a></li>" + "<li><a href=\"https://customs.iradgov.org/\">" + esc(t("footCus")) + "</a></li>" + "<li><a href=\"https://railways.iradgov.org/\">" + esc(t("footRail")) + "</a></li>" + "<li><a href=\"https://avia.iradgov.org/\">" + esc(t("footAvia")) + "</a></li>" + "<li><a href=\"https://energo.iradgov.org/\">" + esc(t("footEnergo")) + "</a></li>" + "<li><a href=\"https://heritage.iradgov.org/\">" + esc(t("footHer")) + "</a></li>" + "<li><a href=\"https://loto.iradgov.org/\">" + esc(t("footLoto")) + "</a></li>" + "<li><a href=\"https://tender.e-irad.org/\">" + esc(t("footTender")) + "</a></li>" +
         ["press", "holidays", "flag", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
@@ -343,6 +343,50 @@
           "</div></article>";
       }).join("") || '<p class="muted">' + esc(t("noneFound")) + "</p>";
       if (location.hash && !pages.decrees.scrolled) { var tgt = document.getElementById(location.hash.slice(1)); if (tgt) { tgt.scrollIntoView(); pages.decrees.scrolled = true; } }
+    }).catch(function () { failBox(el); });
+  };
+
+  /* vacancies in the state service: every body's open competitions, from /data/vacancies.json (rebuilt each evening
+     from the bodies' own sites). Open or closed is decided here by Irad Time; nothing is sent. */
+  pages.vacancies = function () {
+    var el = $("#vaclist"), bar = $("#vacbar"), cl = $("#vacclosed");
+    getJSON("/data/vacancies.json").then(function (d) {
+      var today = iradToday(), all = d.items || [];
+      var soon = (function () { var x = iradNow(); x.setDate(x.getDate() + 7); return x.getFullYear() + "-" + pad(x.getMonth() + 1) + "-" + pad(x.getDate()); })();
+      var open = all.filter(function (x) { return !x.closes || x.closes >= today; });
+      var shut = all.filter(function (x) { return x.closes && x.closes < today; }).sort(function (a, b) { return a.closes < b.closes ? 1 : -1; });
+      var bodies = [], seen = {};
+      open.forEach(function (x) { if (!seen[x.repo]) { seen[x.repo] = 1; bodies.push(x); } });
+      bodies.sort(function (a, b) { return tri(a.body).localeCompare(tri(b.body)); });
+      var st = pages.vacancies.st || (pages.vacancies.st = { body: "", q: "" });
+      if (!bar.firstChild || bar.getAttribute("data-lang") !== LANG) {
+        bar.setAttribute("data-lang", LANG);
+        bar.innerHTML = '<label><span>' + esc(t("vcBody")) + '</span><select id="vacbody"><option value="">' + esc(t("vcAllBodies")) + "</option>" +
+          bodies.map(function (x) { return '<option value="' + esc(x.repo) + '"' + (st.body === x.repo ? " selected" : "") + ">" + esc(tri(x.body)) + "</option>"; }).join("") + "</select></label>" +
+          '<label><span>' + esc(t("vcSearch")) + '</span><input id="vacq" type="search" value="' + esc(st.q) + '" autocomplete="off"></label>' +
+          '<p class="vac-count small muted" id="vaccount"></p>';
+        $("#vacbody").addEventListener("change", function (e) { st.body = e.target.value; pages.vacancies(); });
+        $("#vacq").addEventListener("input", function (e) { st.q = e.target.value; pages.vacancies(); });
+      }
+      var q = st.q.trim().toLowerCase();
+      function hay(x) { return [x.title, x.place, x.body, x.grade].map(function (o) { return o ? (o.en || "") + " " + tri(o) : ""; }).join(" ").toLowerCase() + " " + (x.ref || "").toLowerCase(); }
+      var rows = open.filter(function (x) { return (!st.body || x.repo === st.body) && (!q || hay(x).indexOf(q) >= 0); });
+      $("#vaccount").textContent = t("vcCount", { n: open.length, b: bodies.length }) + (rows.length !== open.length ? " · " + t("vcShown", { n: rows.length }) : "");
+      function enOnly(o) { return LANG !== "en" && o && !hasLang(o); }
+      el.classList.remove("loading");
+      el.innerHTML = rows.length ? '<div class="tbl-wrap"><table class="data vac-tbl"><thead><tr><th>' + esc(t("vcUntil")) + "</th><th>" + esc(t("vcPost")) + "</th><th>" + esc(t("vcBody")) + "</th><th>" + esc(t("vcPlace")) + "</th></tr></thead><tbody>" +
+        rows.map(function (x) {
+          var hot = x.closes && x.closes <= soon;
+          return "<tr" + (hot ? ' class="next"' : "") + '><td class="num">' + (x.closes ? esc(numDate(x.closes)) + (hot ? '<br><span class="tag">' + esc(t("vcSoon")) + "</span>" : "") : '<span class="muted">' + esc(t("vcFilled")) + "</span>") + "</td>" +
+            '<td><a href="' + esc(x.url) + '"><strong>' + esc(tri(x.title)) + "</strong></a>" + (x.ref ? ' <span class="small muted vac-ref">' + esc(x.ref) + "</span>" : "") +
+            (x.posts ? ' <span class="small muted">· ' + esc(x.posts) + "</span>" : "") +
+            (x.grade ? '<div class="small">' + esc(tri(x.grade)) + "</div>" : "") + (x.note ? '<div class="small muted">' + esc(tri(x.note)) + "</div>" : "") +
+            (enOnly(x.title) ? '<div class="small muted">' + esc(t("vcEnOnly")) + "</div>" : "") + "</td>" +
+            "<td>" + esc(tri(x.body)) + "</td><td>" + esc(tri(x.place)) + "</td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="muted">' + esc(t("noneFound")) + "</p>";
+      cl.innerHTML = shut.length ? '<div class="sect-h"><h2>' + esc(t("vcClosedH")) + '</h2></div><ul class="plist vac-shut">' + shut.map(function (x) {
+        return '<li><div class="meta">' + esc(t("vcClosedOn")) + " " + esc(numDate(x.closes)) + " · " + esc(tri(x.body)) + '</div><div class="t"><a href="' + esc(x.url) + '">' + esc(tri(x.title)) + "</a>" + (x.ref ? ' <span class="small muted vac-ref">' + esc(x.ref) + "</span>" : "") + "</div></li>";
+      }).join("") + "</ul>" : "";
     }).catch(function () { failBox(el); });
   };
 

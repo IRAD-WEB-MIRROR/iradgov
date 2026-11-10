@@ -417,3 +417,24 @@ ol.gw { list-style: none; margin: 0 0 1em; padding: 0; border-top: 1px solid #d9
 .gw-it.post .gw-s { color: #a01c26; font-weight: 600; }
 .gw-it.lg .gw-s { font-style: italic; }
 @media (max-width: 640px) { .gw-day { grid-template-columns: 1fr; gap: 4px; } }
+
+/* vacancies in the state service */
+.vac-bar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: flex-end; margin: 14px 0 16px; padding: 12px 14px; background: var(--stone); border: 1px solid var(--line); }
+.vac-bar label { display: flex; flex-direction: column; gap: 4px; font-size: .82rem; color: var(--ink-2); }
+.vac-bar select, .vac-bar input { font: inherit; font-size: .92rem; padding: 6px 8px; border: 1px solid var(--line); background: #fff; color: var(--ink); min-width: 15em; max-width: 100%; }
+.vac-bar .vac-count { margin: 0 0 6px auto; }
+table.vac-tbl td.num { width: 8.5em; }
+table.vac-tbl td:nth-child(3) { width: 17%; }
+table.vac-tbl td:nth-child(4) { width: 24%; }
+table.vac-tbl .tag { margin-top: 4px; }
+.vac-ref { white-space: nowrap; }
+@media (max-width: 680px) {
+  .vac-bar label, .vac-bar select, .vac-bar input { width: 100%; min-width: 0; }
+  .vac-bar .vac-count { margin: 0; }
+  table.vac-tbl thead { display: none; }
+  table.vac-tbl, table.vac-tbl tbody, table.vac-tbl tr, table.vac-tbl td { display: block; width: auto !important; }
+  table.vac-tbl tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+  table.vac-tbl td { border: 0; padding: 2px 10px; text-align: left !important; }
+  table.vac-tbl td.num { font-size: .85rem; color: var(--crimson-deep); }
+  table.vac-tbl td:nth-child(3), table.vac-tbl td:nth-child(4) { font-size: .88rem; color: var(--ink-2); }
+}
