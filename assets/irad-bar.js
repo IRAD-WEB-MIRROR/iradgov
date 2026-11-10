@@ -1,8 +1,9 @@
 /* The notice strip shared by the Irad state sites, e-Irad and the papers: public holidays (Holidays and
    Commemorative Days Act 1993, rev. 2008, the same rules as /holidays.html), office hours (closed at night, at
    weekends and over lunch, one hour early on the eve of a holiday), the flag at half-mast (/data/flag.json), the
-   Ala-Bel pass, avalanche danger, winter's arrival and the start of the heating season (the season block) and
-   Iradenergo's power notices (iradgov.org/data/today.json).
+   Ala-Bel pass, avalanche danger, winter's arrival and the start of the heating season (the season block),
+   today's incidents (fog at the airport, storms, a closed pass, a burst water main) and Iradenergo's power notices
+   (iradgov.org/data/today.json).
 
    <script src="https://iradgov.org/assets/irad-bar.js" data-kind="gov" defer></script>
 
@@ -196,6 +197,14 @@
   var HEAT = ["The heating season has begun: district heating is on in Talas and Nurzhan until 15 April.",
               "Jılıtuu mezgili bashtaldı: Talas menen Nurzhanda jılıtuu 15-aprelge cheyin berilet.",
               "Начался отопительный сезон: централизованное отопление в Таласе и Нуржане работает до 15 апреля."];
+  var INC_LINK = { fog: "https://avia.iradgov.org/", pass: "https://jandarm.iradgov.org/roads.html", storm: "https://gidromet.iradgov.org/" };
+  function live(kind) {   // incidents under way now (start and end in Irad Time with the offset, so Date.parse reads them)
+    var t = data.today, n = Date.now();
+    var l = (t && t.incidents && t.incidents.list || []).filter(function (x) {
+      return Date.parse(x.start) <= n && (!x.end || n < Date.parse(x.end)) && (!kind || x.kind === kind);
+    });
+    return kind ? l.length > 0 : l;
+  }
   function daysSince(a) { var p = String(a).split("-"), q = TODAY.split("-"); return (Date.UTC(+q[0], +q[1] - 1, +q[2]) - Date.UTC(+p[0], +p[1] - 1, +p[2])) / DAY; }
 
   var data = { flag: null, today: null };
@@ -230,12 +239,17 @@
       if (se) {      // the season block (one answer for every site): winter's arrival, heating, the pass, avalanches
         if (se.winter && daysSince(se.since) >= 0 && daysSince(se.since) <= 1) out.push(["season", WINTER[L]]);
         if (se.heating && se.heating.on && daysSince(se.heating.from) >= 0 && daysSince(se.heating.from) <= 2) out.push(["season", HEAT[L]]);
-        if (se.fergana_gateway === "closed") out.push(["pass", SHUTPASS[L]]);
+        if (se.fergana_gateway === "closed" && !live("pass")) out.push(["pass", SHUTPASS[L]]);
         if (se.avalanche && se.avalanche.level >= 4) out.push(["pass", AVA[L].replace("{l}", esc(tri(se.avalanche.label, L)))]);
       } else if (talas) {   // the same rule as the Gendarmerie's mountain table, at the Ala-Bel summit (3,184 m)
         var k2 = (3184 - 1270) * 0.0065, hi = talas.high - k2, wet = (talas.code || 0) >= 51 || (talas.precip_mm || 0) > 0;
         if (wet && hi <= 1 && ((talas.precip_mm || 0) >= 10 || (talas.code || 0) >= 73)) out.push(["pass", PASS[L]]);
       }
+      live().forEach(function (x) {   // today's incidents (the same list on every site): one line each while it lasts
+        var u = INC_LINK[x.kind] || INC_LINK.storm;
+        if (x.kind === "main") u = (x.places || [])[0] === "nurzhan" ? "https://nurzhan.iradgov.org/" : "https://transport.talas.iradgov.org/";
+        out.push(["pass", esc(tri(x.notice, L)) + ' (<a href="' + u + '">' + ["more", "tolugu", "подробнее"][L] + "</a>)"]);
+      });
       var sup = t.power && t.power.supply;
       if (sup && sup.en && !/^Normal supply/i.test(sup.en)) out.push(["power", esc(["Iradenergo", "Iradenergo", "Ирадэнерго"][L] + ": ") + esc(tri(sup, L))]);
     }
