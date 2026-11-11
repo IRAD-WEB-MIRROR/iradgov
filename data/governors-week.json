@@ -221,12 +221,12 @@
    "time": "10:00",
    "name": {
     "en": "Visit to the Talas Customs Clearance Terminal",
-    "ir": "Talas bajı tarıktoo terminalına baruu",
+    "ir": "Talas bajı tarizdöö terminalına baruu",
     "ru": "Посещение Таласского таможенного терминала"
    },
    "place": {
     "en": "Talas Customs Clearance Terminal",
-    "ir": "Talas bajı tarıktoo terminalı",
+    "ir": "Talas bajı tarizdöö terminalı",
     "ru": "Таласский таможенный терминал"
    },
    "modes": [
