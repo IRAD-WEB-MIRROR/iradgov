@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /press/drafts/
 
 Sitemap: https://iradgov.org/sitemap.xml
