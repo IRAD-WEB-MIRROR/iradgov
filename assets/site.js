@@ -64,7 +64,7 @@
     ["home", "/"], ["governor", "/governor.html"], ["firstlady", "/first-lady.html"], ["ltgov", "/lieutenant-governor.html"], ["zharkyn", "/zharkyn.html"],
     { g: "gov", items: [["admin", "/administration.html"], ["ministries", "/ministries.html"], ["vacancies", "/vacancies.html"], ["regions", "/regions.html"], ["talascity", "https://talas.iradgov.org/"], ["nurzhancity", "https://nurzhan.iradgov.org/"], ["ijcity", "https://iyikjanyl.iradgov.org/"]] },
     ["press", "/press.html"], ["decrees", "/decrees.html"],
-    { g: "state", items: [["symbols", "/symbols.html"], ["flag", "/flag-status.html"], ["holidays", "/holidays.html"]] },
+    { g: "state", items: [["symbols", "/symbols.html"], ["flag", "/flag-status.html"], ["holidays", "/holidays.html"], ["time", "/time.html"]] },
     ["contact", "/contact.html"]
   ];
   var NAVPAGE = { release: "press", week: "governor" };

@@ -438,3 +438,9 @@ table.vac-tbl .tag { margin-top: 4px; }
   table.vac-tbl td.num { font-size: .85rem; color: var(--crimson-deep); }
   table.vac-tbl td:nth-child(3), table.vac-tbl td:nth-child(4) { font-size: .88rem; color: var(--ink-2); }
 }
+
+/* Irad Time (time.html) */
+.tm-now { text-align: center; }
+.tm-now .tm-k { font-weight: 600; margin-bottom: 6px; }
+.tm-wg .card p { min-height: 140px; display: flex; align-items: center; justify-content: center; }
+.tm-code { white-space: pre-wrap; word-break: break-all; font-size: .74rem; background: #f4f1ea; border: 1px solid #ddd5c4; padding: 6px 8px; margin: 0; }
