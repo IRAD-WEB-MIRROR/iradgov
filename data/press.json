@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-12",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -951,6 +951,41 @@
     "Kara-Bulak",
     "Rural Development Fund",
     "investment"
+   ]
+  },
+  {
+   "id": "2026-11-10-ministry-notes-neighbour-s-record-cotton-crop-as",
+   "date": "2026-11-10",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayyl charba jana suu resurstary ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "Ministry Notes Neighbour's Record Cotton Crop as Zone's Growers Look to Yield, Water and Machines",
+    "ir": "Ministrlik koshunanyn pakhta rekordun belgiledi: Zonanyn dykandary tüshümgö, suuga jana tekhnikaga köngül burat",
+    "ru": "Министерство отметило рекордный урожай хлопка у соседа: аграрии Зоны смотрят на урожайность, воду и технику"
+   },
+   "summary": {
+    "en": "The Ministry of Agriculture and Water Resources noted Uzbekistan's reported cotton harvest of more than 5 million tonnes, set beside the Zone's own record picking on the Fergana-rim farm belt. It said the questions of yield, water and mechanical picking are ones the Zone's growers already address.",
+    "ir": "Ayyl charba jana suu resurstary ministrligi Özbekstanda 5 million tonnadan ashkan pakhta tüshümün belgiledi. Ministrlik tüshüm, suu jana tekhnika Zonanyn dykandarlary üchün da mayyzdu suroolor ekenin bildirdi.",
+    "ru": "Министерство сельского хозяйства и водных ресурсов отметило сообщённый Узбекистаном урожай хлопка более 5 млн тонн. Вопросы урожайности, воды и механизированной уборки, отметило ведомство, уже стоят перед аграриями Зоны."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Agriculture and Water Resources on Thursday noted the report from Uzbekistan that it has harvested more than 5 million tonnes of cotton this year, the first crop of that size in 35 years.",
+     "According to the Uzbek government, the crop was gathered on roughly half the area sown in 1990, average yields have more than doubled over the period, and machines took about 85 per cent of this autumn's harvest.",
+     "The Ministry recalled that on 7 November the government's press office announced the end of cotton picking in the Zone, with the largest crop in the Ministry's records since 2007, grown on the Fergana-rim farm belt of Lower Naryn District. The Uzbek figure is a neighbour's result and not an Iradi one, the Ministry said, but it points to questions that the Zone's growers already work on: how much fibre a hectare can give, how much water it requires, and how the crop is picked.",
+     "On water, the Ministry pointed to the Irrigation Modernization Programme, which has run since 2018 and provides for canal lining, laser levelling of fields and drip irrigation. Minister of Agriculture and Water Resources Melis Nurmatov has said that saving water in the canal is the cheapest harvest a farm can gain.",
+     "On machines, the Ministry noted that after picking the crop is ginned in Chu District, where Xinjiang Lihua holds ginning concessions. The Ministry will take the experience of neighbouring countries into account in its work on preparations for the 2027 sowing."
+    ]
+   },
+   "tags": [
+    "agriculture",
+    "cotton",
+    "irrigation",
+    "Fergana rim"
    ]
   }
  ]
