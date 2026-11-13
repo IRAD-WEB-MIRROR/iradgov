@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -986,6 +986,41 @@
     "cotton",
     "irrigation",
     "Fergana rim"
+   ]
+  },
+  {
+   "id": "2026-11-12-bread-fares-and-fuel-hold-steady-in-som-across-t",
+   "date": "2026-11-12",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Bread, Fares and Fuel Hold Steady in Som Across Talas and Nurzhan",
+    "ir": "Talas men Nurzhanda nan, jol kire jana otun baasy turuktuu",
+    "ru": "Хлеб, проезд и топливо в Таласе и Нуржане сохраняют цены в сомах"
+   },
+   "summary": {
+    "en": "A price check at Bazar-i Kalan and the Talas Central Bus Station shows that the price of bread, intercity fares and diesel is steady in som. The Ministry of Economy says wages and fares are set in som and paid in som.",
+    "ir": "Bazar-i Kalan men Talas borborduk avtovokzalynda baa tekseruu: nan, jol kire jana dizel baasy somdo turuktuu. Ekonomika ministrligi: jalaky jana jol kire somdo belgilenet jana somdo tölönöt.",
+    "ru": "Проверка цен на базаре Базар-и Калан и на Таласском центральном автовокзале показала, что цены на хлеб, междугородный проезд и дизельное топливо в сомах стабильны. Министерство экономики напоминает, что зарплаты и тарифы устанавливаются и выплачиваются в сомах."
+   },
+   "body": {
+    "en": [
+     "A price check carried out on Monday 9 November at Bazar-i Kalan and the Talas Central Bus Station confirmed that the prices of the main everyday goods and services in the Irad Special Economic Zone remain steady in som.",
+     "A loaf of nan cost 3.50 som in Talas. The bus fare from Talas to Nurzhan was 32 som and the marshrutka fare 38 som. Diesel at NurGaz stations was 6.10 som a litre. Staples grown in the Zone are flat or falling in price following this year's harvest.",
+     "The one recent change was on the Talas–Kyzyl-Adyr marshrutka, where the fare rose from 24 to 30 som on 19 October. The adjustment followed higher diesel costs on the route, a stated reason in line with the established practice for changes to public fares.",
+     "The Bank of Irad's official rate remains 8.40 som to the US dollar, the rate in force since 17 March 2008. Public wages, pensions, utilities and transport fares continue to be paid and charged in som at that rate. The latest published consumer price index of the Territorial Statistics Office is 7.9% year on year for September 2026, and the Office's next bulletin will give the full picture.",
+     "\"Wages and fares are set in som and paid in som,\" said Bekbolot Sherov, press secretary of the Ministry of Economy, restating the ministry's position. The Ministry will continue to monitor prices of food, fuel and transport and to publish its findings."
+    ]
+   },
+   "tags": [
+    "prices",
+    "economy",
+    "transport",
+    "som"
    ]
   }
  ]

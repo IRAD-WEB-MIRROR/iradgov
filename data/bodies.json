@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "items": [
+  {
+   "date": "2026-11-12",
+   "body": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Bread, Fares and Fuel Hold Steady in Som Across Talas and Nurzhan",
+    "ir": "Talas men Nurzhanda nan, jol kire jana otun baasy turuktuu",
+    "ru": "Хлеб, проезд и топливо в Таласе и Нуржане сохраняют цены в сомах"
+   },
+   "url": "https://economy.iradgov.org/news/2026-11-12-1.html"
+  },
   {
    "date": "2026-11-10",
    "body": {
@@ -64,20 +78,6 @@
     "ru": "Минтруд: реестр семей мигрантов остаётся основой для выплаты пособий"
    },
    "url": "https://post.iradgov.org/news/2026-11-06-1.html"
-  },
-  {
-   "date": "2026-11-06",
-   "body": {
-    "en": "Ministry of Natural Resources",
-    "ir": "Jaratılısh baylıktarı ministrligi",
-    "ru": "Министерство природных ресурсов"
-   },
-   "title": {
-    "en": "Camera Traps Record Two Snow Leopards in Upper Besh-Tash for the First Time in Decades",
-    "ir": "Jogorku Besh-Tash jylgasynda eki ilbirs kamerada tirkeldi",
-    "ru": "В верховьях Беш-Таша фотоловушки зафиксировали двух снежных барсов впервые за десятилетия"
-   },
-   "url": "https://resources.iradgov.org/news/2026-11-06-1.html"
   }
  ]
 }
