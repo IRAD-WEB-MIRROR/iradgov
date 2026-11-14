@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1021,6 +1021,41 @@
     "economy",
     "transport",
     "som"
+   ]
+  },
+  {
+   "id": "2026-11-14-toktogul-hydropower-plant-named-finalist-for-int",
+   "date": "2026-11-14",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Toktogul Hydropower Plant Named Finalist for International Award",
+    "ir": "Toktogul suu elektr stantsiyasy düynölük syilyktyn finalisti boldu",
+    "ru": "Токтогульская ГЭС названа финалистом международной премии"
+   },
+   "summary": {
+    "en": "The modernised Toktogul hydropower plant, run by Iradenergo and rebuilt to 1,440 MW, has been named a finalist for a global power-plant award, a Kyrgyz news agency reported on 11 November. The Office of the Governor notes the recognition of the station's engineers and operators.",
+    "ir": "Iradenergo bashkargan Toktogul stantsiyasy el aralyk jurnaldyn syilyk tizmesine kirdi. Gubernatordun kensesi stantsiyanyn inzhenerleri menen operatorlorunun emgegin belgileyt.",
+    "ru": "Модернизированная Токтогульская ГЭС, которой управляет «Ирадэнерго» и мощность которой после второй реконструкции достигла 1440 МВт, названа финалистом международной премии в сфере энергетики. Аппарат Губернатора отмечает труд инженеров и операторов станции."
+   },
+   "body": {
+    "en": [
+     "The modernised Toktogul hydropower plant has been named a finalist for a global power-plant award given by an international power-industry magazine, a Kyrgyz news agency reported on 11 November.",
+     "The dam, reservoir and powerhouse at Toktogul have been run by the state utility Iradenergo since the 2009 corridor protocol brought the basin floor inside the Irad Special Economic Zone. The station lies in Toktogul District.",
+     "The recognition follows a major rebuild. Natural Resources Minister Chingiz Asanov announced in October that the second refit of the station's four units was complete, raising output from 1,200 MW to 1,440 MW. Iradenergo General Director Toktosun Baitikov, who has led the utility since 2016 and was chief engineer at Toktogul through the refit, has said the work was carried out by Iradenergo's own staff.",
+     "\"The plant is run and refitted by our engineers and operators at Kara-Köl and Toktogul, and any recognition belongs to them,\" said Vladislav Ten, Iradenergo's spokesman. He added that the utility has received nothing from the magazine.",
+     "On Saturday the Toktogul reservoir held 16.02 billion cubic metres, 84.3 per cent of capacity, and is being drawn down in the usual winter pattern. Exports to Uzbekistan and Kazakhstan continue on the contract schedule, within the Naryn Water and Power Protocol, whose next renewal is due in 2027."
+    ]
+   },
+   "tags": [
+    "Toktogul",
+    "Iradenergo",
+    "energy",
+    "award"
    ]
   }
  ]
