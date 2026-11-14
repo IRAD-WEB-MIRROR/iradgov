@@ -111,6 +111,7 @@
         "</div></div></div></div>" +
         '<div class="mast"><div class="wrap"><a class="home-link" href="/"><img class="emb" src="/assets/state-emblem-160.png" alt="' + esc(t("embAlt")) + '" width="76" height="76">' +
         '<div class="ttl"><div class="k">' + esc(t("mastK")) + '</div><div class="n">' + esc(t("mastN")) + '</div><div class="s">' + esc(t("mastS")) + "</div></div></a>" +
+        '<form class="srch" action="https://search.attelkom.net/" method="get" role="search"><input type="hidden" name="site" value="iradgov.org"><input type="search" name="q" placeholder="' + esc(t("srchPh")) + '" aria-label="' + esc(t("srchPh")) + '"><button type="submit">' + esc(t("srchBtn")) + "</button></form>" +
         '<a class="eirad" href="' + SERVICES + '">' + t("eiradBtn") + "</a></div></div>" +
         '<nav class="nav" aria-label="' + esc(t("navLabel")) + '"><div class="wrap"><button class="burger" type="button" aria-expanded="false"><span class="bars"></span>' + esc(t("menu")) + "</button><ul class=\"menu\">" + navHTML(cur) +
         "</ul></div></nav><div class=\"orn\" aria-hidden=\"true\"></div>";

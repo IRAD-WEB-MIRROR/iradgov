@@ -62,6 +62,10 @@ p { margin: 0 0 1em; }
 .mast .eirad { flex: none; display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); padding: 8px 12px; text-decoration: none; color: var(--ink); font-size: .9rem; background: var(--paper); }
 .mast .eirad b { color: #0f5f63; font-family: var(--sans); }
 .mast .eirad:hover { border-color: #0f5f63; }
+.mast .srch { flex: none; display: flex; }
+.mast .srch input { width: 190px; border: 1px solid var(--line); border-right: 0; padding: 7px 9px; font: inherit; font-size: .88rem; background: #fff; color: var(--ink); }
+.mast .srch button { border: 1px solid var(--line); background: var(--paper); padding: 7px 11px; font: inherit; font-size: .88rem; color: var(--ink); cursor: pointer; }
+.mast .srch button:hover { border-color: #0f5f63; }
 
 /* nav */
 .nav { background: var(--crimson); border-bottom: 3px solid var(--gold); position: relative; }
@@ -267,6 +271,7 @@ table.data tr.next td { background: #fbf4e2; }
   .mast .ttl .n { font-size: 1.2rem; }
   .mast .ttl .s { font-size: .82rem; }
   .mast .eirad { width: 100%; justify-content: center; }
+  .mast .srch { width: 100%; } .mast .srch input { flex: 1; width: auto; }
   .feature { grid-template-columns: minmax(0, 1fr); }
   .feature .datebox { flex-direction: row; align-items: center; gap: 14px; padding: 12px 18px; }
   .feature .datebox .d { font-size: 1.9rem; }
@@ -285,7 +290,7 @@ table.data tr.next td { background: #fbf4e2; }
   .util .clock { display: none; }
 }
 @media print {
-  .util, .nav, .foot, .mast .eirad, .langs { display: none !important; }
+  .util, .nav, .foot, .mast .eirad, .mast .srch, .langs { display: none !important; }
   body { background: #fff; }
 }
 
