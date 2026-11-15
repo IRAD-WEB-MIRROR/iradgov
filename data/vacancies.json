@@ -1,27 +1,6 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-15",
  "items": [
-  {
-   "body": {
-    "en": "Irad Temir Jolu",
-    "ir": "Irad Temir Jolu",
-    "ru": "«Ирад Темир Жолу»"
-   },
-   "repo": "railways",
-   "ref": "TJ-26/09",
-   "title": {
-    "en": "Carriage inspector",
-    "ir": "Vagon karoochu",
-    "ru": "Осмотрщик вагонов"
-   },
-   "closes": "2026-09-30",
-   "url": "https://railways.iradgov.org/vacancies.html#vac-tj-26-09",
-   "place": {
-    "en": "Nurzhan Rail Freight Depot",
-    "ir": "Nurzhan jük bazası",
-    "ru": "Станция Нуржан-Грузовая"
-   }
-  },
   {
    "body": {
     "en": "Customs Service",
