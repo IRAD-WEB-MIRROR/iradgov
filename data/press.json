@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-18",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1056,6 +1056,76 @@
     "Iradenergo",
     "energy",
     "award"
+   ]
+  },
+  {
+   "id": "2026-11-18-ministry-of-economy-2027-draft-budget-proceeds-t",
+   "date": "2026-11-18",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Ministry of Economy: 2027 Draft Budget Proceeds to the Mejlis in the Usual Way",
+    "ir": "Ekonomika ministrligi: 2027-jyldyn büdjet proekti Mejliske adatyndagydai jönötülüp jatat",
+    "ru": "Министерство экономики: проект бюджета на 2027 год направляется в Мэджлис в установленном порядке"
+   },
+   "summary": {
+    "en": "The Ministry of Economy confirmed that the ISEZ draft budget for 2027 goes to the Mejlis this month, with the vote due in December and the education chapter to appear in the published summary. The ministry also noted Kyrgyzstan's published 2027 education figure.",
+    "ir": "Ekonomika ministrligi 2027-jyldyn büdjet proekti ushul ayda Mejliske jönötülörün, dayvaz dekabrda bolorun tasyktady.",
+    "ru": "Министерство экономики подтвердило, что проект бюджета ОЭЗИ на 2027 год направляется в Мэджлис в этом месяце, голосование намечено на декабрь, а глава об образовании войдёт в опубликованную сводку."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Economy on Wednesday confirmed that the draft budget of the Irad Special Economic Zone for 2027 is being sent to the Mejlis this month, with the vote due in December.",
+     "The fiscal year of the Zone follows the calendar year. The Office of the Governor submits the draft to the Mejlis in November, the chamber adopts the budget in December, and a summary of the draft is published. The ministry stated that the summary will include the chapter on education, prepared by the Ministry of Education under Minister Kanykei Umotova.",
+     "As a point of reference, the 2026 budget allotted about 12% of spending to education, roughly 4.2 billion of 34.9 billion som. Public wages as a whole accounted for about 34% of spending.",
+     "In the region, Kyrgyzstan's published 2027 draft budget sets education spending at about 105 billion Kyrgyz som, most of it for pay. At the Bank of Irad's cross rate of 9.6 Iradi som per 100 Kyrgyz som, that is roughly 10.1 billion Iradi som. The ministry noted that the Kyrgyz figure relates to a much larger system and is not directly comparable with that of the Zone.",
+     "Bekbolot Sherov, press secretary of the Ministry of Economy, said: \"Pay is set in som and paid in som.\" He added that the draft goes to the Mejlis in the usual way and that the education chapter will appear in the published summary."
+    ]
+   },
+   "tags": [
+    "budget",
+    "education",
+    "Mejlis",
+    "Ministry of Economy"
+   ]
+  },
+  {
+   "id": "2026-11-18-ilbirs-station-cameras-record-three-snow-leopard",
+   "date": "2026-11-18",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Ilbirs Station Cameras Record Three Snow Leopards in the Chatkal Highlands",
+    "ir": "Chatkal toolorunda üch ilbirs kameraga tüshtü",
+    "ru": "Камеры станции «Илбирс» зафиксировали трёх снежных барсов в Чаткальском нагорье"
+   },
+   "summary": {
+    "en": "The Ilbirs Station at Uuk-Bulak this week released camera-trap footage of three snow leopards crossing a snow-dusted slope in the Chatkal Highlands. The station's head said the sequence shows the camera line is working, while cautioning that it is not a count.",
+    "ir": "Uuk-Bulaktagy Ilbirs stantsiyasy Chatkal toolorunda üch ilbirs tüshkön kameranyn jazuusun jaryyalady. Stantsiyanyn bashchysy munu sanoo emes, bir ghana epizod dep belgiledi.",
+    "ru": "Станция «Илбирс» в Ууκ-Булаке на этой неделе опубликовала запись фотоловушек, на которой три снежных барса пересекают заснеженную осыпь в Чаткальском нагорье. Руководитель станции подчеркнула, что запись не является подсчётом."
+   },
+   "body": {
+    "en": [
+     "The Ilbirs Station at Uuk-Bulak, in Sary-Bulak District, this week released camera-trap footage showing three snow leopards crossing a snow-dusted scree slope in the Chatkal Highlands. The animals were recorded in a single sequence in the early morning.",
+     "The station is run by the Faculty of Biology and Chemistry of Talas State University, with veterinarians from the Talas Veterinary Research Center. It opened on 23 October, with the Ministry of Natural Resources represented at the ceremony.",
+     "Dr Aizhan Torobekova, head of the station, said the group may be a female with two grown young. She was careful to set out what the pictures can and cannot show. \"It is one sequence on one morning. It is not a count, and we will not call it one,\" Dr Torobekova said.",
+     "She said the footage nonetheless shows that the cats are using the slope and that the camera line is doing its job. The cameras stand on tribal hill pasture and operate with the agreement of the clan councils, an arrangement the station has kept since it opened.",
+     "Researchers hope that further sequences through the winter will show how often the animals pass and whether the group stays together. The station will continue to review the camera cards as the snow deepens, and any further footage will be released with the same care about what it does and does not show."
+    ]
+   },
+   "tags": [
+    "Ilbirs Station",
+    "Chatkal Highlands",
+    "Sary-Bulak District",
+    "conservation"
    ]
   }
  ]
