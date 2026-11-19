@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "items": [
+  {
+   "date": "2026-11-19",
+   "body": {
+    "en": "Irad Gidromet",
+    "ir": "Irad Gidromet",
+    "ru": "Ирадгидромет"
+   },
+   "title": {
+    "en": "Irad Gidromet Reports Nurzhan Air Quality; Residents Advised on Precautions During Inversion",
+    "ir": "Irad Gidromet Nurzhandagy aba sapaty boyuncha maalymat berdi; turgundarga aldyn ala saktanuu aytyldy",
+    "ru": "Ирад Гидромет сообщил о качестве воздуха в Нуржане; жителям даны рекомендации на период инверсии"
+   },
+   "url": "https://gidromet.iradgov.org/news/2026-11-19-1.html"
+  },
+  {
+   "date": "2026-11-19",
+   "body": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Investment Promotion Office: 88 Agreements Worth US$2.4 Billion Signed Since 2023",
+    "ir": "Investitsiyalardy Yntalandyruu Kyzmaty: 88 kelishim, 2,4 milliard dollar",
+    "ru": "Служба содействия инвестициям: 88 соглашений на 2,4 млрд долларов США с 2023 года"
+   },
+   "url": "https://economy.iradgov.org/news/2026-11-19-1.html"
+  },
   {
    "date": "2026-11-18",
    "body": {
@@ -44,20 +72,6 @@
    "url": "https://resources.iradgov.org/news/2026-11-18-1.html"
   },
   {
-   "date": "2026-11-12",
-   "body": {
-    "en": "Ministry of Economy",
-    "ir": "Ekonomika ministrligi",
-    "ru": "Министерство экономики"
-   },
-   "title": {
-    "en": "Bread, Fares and Fuel Hold Steady in Som Across Talas and Nurzhan",
-    "ir": "Talas men Nurzhanda nan, jol kire jana otun baasy turuktuu",
-    "ru": "Хлеб, проезд и топливо в Таласе и Нуржане сохраняют цены в сомах"
-   },
-   "url": "https://economy.iradgov.org/news/2026-11-12-1.html"
-  },
-  {
    "date": "2026-11-10",
    "body": {
     "en": "Ministry of Agriculture and Water Resources",
@@ -68,18 +82,6 @@
     "en": "Ministry Notes Neighbour's Record Cotton Crop as Zone's Growers Look to Yield, Water and Machines"
    },
    "url": "https://agriculture.iradgov.org/news-2026-11-10-ministry-notes-neighbour-s-record-cotton.html"
-  },
-  {
-   "date": "2026-11-08",
-   "body": {
-    "en": "Ministry of Agriculture and Water Resources",
-    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
-    "ru": "Министерство сельского хозяйства и водных ресурсов"
-   },
-   "title": {
-    "en": "Farm-Machinery Service Centre to Open at Kara-Bulak Before Spring Sowing"
-   },
-   "url": "https://agriculture.iradgov.org/news-2026-11-08-farm-machinery-service-centre-to-open-at.html"
   }
  ]
 }

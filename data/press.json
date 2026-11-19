@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1126,6 +1126,76 @@
     "Chatkal Highlands",
     "Sary-Bulak District",
     "conservation"
+   ]
+  },
+  {
+   "id": "2026-11-19-irad-gidromet-reports-nurzhan-air-quality-reside",
+   "date": "2026-11-19",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Irad Gidromet Reports Nurzhan Air Quality; Residents Advised on Precautions During Inversion",
+    "ir": "Irad Gidromet Nurzhandagy aba sapaty boyuncha maalymat berdi; turgundarga aldyn ala saktanuu aytyldy",
+    "ru": "Ирад Гидромет сообщил о качестве воздуха в Нуржане; жителям даны рекомендации на период инверсии"
+   },
+   "summary": {
+    "en": "Irad Gidromet reports that a temperature inversion has pushed Nurzhan's air quality index to 196, and the city administration says refuse collection and heating arrangements continue as normal. Children, older residents and people with heart or lung conditions are asked to stay indoors where possible.",
+    "ir": "Irad Gidromet Nurzhanda temperaturanyn inversiyasynan aba sapatynyn indeksi 196 bolgonun bildirdi. Shaar administratsiyasy zibil jyynoo jana ysytuu tartibi ozgörböy dayym ishtep jatkanyn aytty.",
+    "ru": "Ирад Гидромет сообщает, что из-за температурной инверсии индекс качества воздуха в Нуржане достиг 196. Администрация города заявила, что вывоз мусора и отопление продолжаются в обычном порядке; детям, пожилым людям и людям с болезнями сердца и лёгких рекомендовано по возможности оставаться дома."
+   },
+   "body": {
+    "en": [
+     "Irad Gidromet reported on Thursday that Nurzhan is under a temperature inversion, with the air quality index (AQI) at 196, rated unhealthy, and fine particles (PM2.5) at 119.0 micrograms per cubic metre. Readings in the other two cities were an AQI of 141 in Iyık Janyl and 106 in Talas, both rated unhealthy for sensitive groups.",
+     "The sky over Nurzhan is clear, with a high of 2°C and a low of -5°C. District heating is running, as it does throughout the heating season. Mirlan Beishembiev, Director of Irad Gidromet, said the inversion is the immediate cause of the readings. \"Cold air sits on the Chu plain like a lid,\" he said. Readings usually ease within a day or two of the lid lifting.",
+     "Gidromet's figure for the sources of winter particulate pollution comes from the 2021 study by Talas State University, which put household coal and district heating at about 45 per cent, the refinery and industry at about 25 per cent, traffic at about 20 per cent and dust at about 10 per cent. Nurzhan's central heat and power plant stands in the Eastern Industrial Zone and is owned by NurGaz; its conversion to gas is planned. Smoke from private houses in belts such as Dastgoh District and Jangy-Konush also adds to the winter load.",
+     "Mayor of Nurzhan Vadim Shcherbakov said that refuse collection and heating arrangements in the city continue as they are, and that the city administration expects the air to improve once the inversion breaks. Children, older residents and people with heart or lung conditions are asked to stay indoors where possible and to keep windows closed in the mornings.",
+     "On 18 November the chairman of Kyrgyzstan's Cabinet of Ministers told parliament that Bishkek will have a second waste-to-energy plant. No such plant is proposed for the Irad Special Economic Zone. Irad Gidromet publishes readings for all three cities daily on gidromet.iradgov.org."
+    ]
+   },
+   "tags": [
+    "air quality",
+    "Nurzhan",
+    "Irad Gidromet",
+    "heating season"
+   ]
+  },
+  {
+   "id": "2026-11-19-investment-promotion-office-88-agreements-worth",
+   "date": "2026-11-19",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Investment Promotion Office: 88 Agreements Worth US$2.4 Billion Signed Since 2023",
+    "ir": "Investitsiyalardy Yntalandyruu Kyzmaty: 88 kelishim, 2,4 milliard dollar",
+    "ru": "Служба содействия инвестициям: 88 соглашений на 2,4 млрд долларов США с 2023 года"
+   },
+   "summary": {
+    "en": "The Investment Promotion Office has set out the Zone's investment pipeline, with 88 agreements worth US$2.4 billion signed since 2023 and the new US$60 million industrial park near Tash-Kömür. The Office says the task now is to turn signatures into investment.",
+    "ir": "Investitsiyalardy Yntalandyruu Kyzmaty 2023-jyldan beri imzalangan 88 kelishimdin jana Tash-Kömürdögü jangy industriyalyk parktyn jönündö maalymat berdi. Kyzmat imzalardy investitsiyaga aylandyruu maksat ekenin bildirdi.",
+    "ru": "Служба содействия инвестициям рассказала о портфеле проектов Зоны: с 2023 года подписано 88 соглашений на 2,4 млрд долларов США, включая новый индустриальный парк близ Таш-Кёмюра. Задача — превратить подписи в вложения."
+   },
+   "body": {
+    "en": [
+     "The Investment Promotion Office of the Office of the Governor on Thursday set out the state of investment in the Irad Special Economic Zone, following figures reported this week by neighbouring Kyrgyzstan. The chairman of the Kyrgyz Cabinet told parliament in Bishkek that foreign direct investment there reached US$709.9 million in January to June 2026.",
+     "The Office noted that the Zone's official foreign direct investment for the whole of 2025 was US$286 million, more than half of it reinvested earnings of firms already operating in the Zone. A six-month figure and a twelve-month figure are not directly comparable, the Office said, nor are the methods of two statistical offices, and no half-year figure for the Zone in 2026 has been published.",
+     "Since 2023 the Investment Promotion Office has registered 88 agreements worth US$2.4 billion. Its head, Kirill Zhdanov, said: \"A signature is a promise to build, not a dollar spent, and we count the two separately.\" The Office's task, he added, is to turn the first into the second.",
+     "The newest agreement on the list is the US$60 million industrial park near Tash-Kömür in Lower Naryn District, made public on 13 November. The first phase, at US$18 million, is planned to bring warehouses, a food-processing block and light-assembly halls, with about 900 jobs at full build. Electricity supply for the park will be settled with Iradenergo, in keeping with the Zone's export contracts and the winter peak.",
+     "The Office said the Zone is in the same race for investors as its neighbours, with a pipeline of signed projects behind it. The measure that will count, it said, is how much of that pipeline arrives in the Bank of Irad's investment statistics in 2027."
+    ]
+   },
+   "tags": [
+    "investment",
+    "Investment Promotion Office",
+    "Tash-Kömür",
+    "economy"
    ]
   }
  ]
