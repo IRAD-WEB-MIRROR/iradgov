@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1196,6 +1196,41 @@
     "Investment Promotion Office",
     "Tash-Kömür",
     "economy"
+   ]
+  },
+  {
+   "id": "2026-11-20-talas-river-hydrological-monitoring-service-keep",
+   "date": "2026-11-20",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Talas River Hydrological Monitoring Service Keeps All Permanent Gauges in Operation",
+    "ir": "Talas gidrologiyalyk monitoring kyzmaty bardyk turaktuu postlordun ishin dayym kylat",
+    "ru": "Служба гидрологического мониторинга реки Талас сохраняет работу всех постоянных постов"
+   },
+   "summary": {
+    "en": "The Talas River Hydrological Monitoring Service confirmed that every permanent river gauge, funded from the ISEZ budget, will keep running through the winter. Only additional field surveys and observatory stipends will be reduced after an adjustment to its international grant.",
+    "ir": "Talas gidrologiyalyk monitoring kyzmaty ISEZ byudjetinen karjylgan bardyk turaktuu postlor kyshta dagy ishtey beret dep bildirdi. Kosumcha talaa izildöölör gana kyskarat.",
+    "ru": "Служба гидрологического мониторинга реки Талас подтвердила, что все постоянные гидропосты, финансируемые из бюджета ОЭЗИ, продолжат работу всю зиму. Сокращены будут лишь дополнительные полевые обследования и стипендии обсерватории после корректировки международного гранта."
+   },
+   "body": {
+    "en": [
+     "The Talas River Hydrological Monitoring Service this week confirmed that all of its permanent river gauges on the Talas and along the Naryn cascade will continue to operate without interruption. The gauges are funded from the budget of the Irad Special Economic Zone and do not depend on any external grant.",
+     "The international environmental fund that co-finances the Service's glacier and river-gauge programme has set its grant for July 2026 to June 2027 at US$420,000, about IS 3.5 million at the official rate of 8.40 som. The Service has adjusted its winter work plan accordingly.",
+     "Director Uzakbai Mukashev told reporters in Talas that the adjustment affects only supplementary activities. \"Not one of those gauges depends on the grant,\" he said. This winter the Service will carry out a more focused survey of moraine lakes on the Talas Alatau, and stipends for staff at the Manas Peak Glaciological Observatory will be set at a lower level.",
+     "Nazira Isaeva, scientific head of the observatory, said the core stations will be protected first. The basin holds 268 glaciers, and long records exist for the key ones. The upper Talas glaciers have lost about a fifth of their area since 1970, and the monitoring of moraine lakes, which grew out of the lessons of the Sary-Say mudflow of 1973, remains a priority of the Service.",
+     "The Service's data will support preparations for the renewal of the Naryn Protocol in 2027. As of 20 November, the Toktogul reservoir stood at 15.71 cubic kilometres of its 19, or 82.7 per cent, and is drawing down on the usual winter schedule. Dr Bermet Asylova of Talas State University noted that current melt figures are valuable for schedule discussions. Mr Mukashev said the Service will provide the Ministry of Natural Resources and the Naryn commission with the data it holds, and that Iradi hydrologists will have what the 2027 schedule requires."
+    ]
+   },
+   "tags": [
+    "hydrology",
+    "Talas River",
+    "Naryn Protocol",
+    "glaciers"
    ]
   }
  ]
