@@ -1,8 +1,8 @@
 {
- "date": "2026-11-22",
- "updated": "2026-11-22T03:07+06:00",
+ "date": "2026-11-23",
+ "updated": "2026-11-23T03:07+06:00",
  "label": {
-  "en": "Daily figures, 22 November 2026",
+  "en": "Daily figures, 23 November 2026",
   "ir": "Kündölük körsötküchtör",
   "ru": "Ежедневные показатели"
  },
@@ -29,7 +29,7 @@
     {
      "code": "CNY",
      "units": 1,
-     "som": 1.26
+     "som": 1.25
     },
     {
      "code": "RUB",
@@ -49,7 +49,7 @@
     {
      "code": "UZS",
      "units": 1000,
-     "som": 0.7019
+     "som": 0.7007
     }
    ]
   }
@@ -281,13 +281,13 @@
      "ru": "Талас"
     },
     "elevation_m": 1270,
-    "high": 6,
+    "high": 7,
     "low": -5,
-    "code": 1,
+    "code": 3,
     "label": {
-     "en": "Mainly clear",
-     "ir": "Negizinen achık",
-     "ru": "Преимущественно ясно"
+     "en": "Cloudy",
+     "ir": "Bulut",
+     "ru": "Облачно"
     },
     "precip_mm": 0.0,
     "inversion": false,
@@ -296,23 +296,12 @@
      -4,
      -5,
      -2,
-     3,
+     4,
+     7,
      6,
-     5,
-     2
+     3
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 7,
-      "low": -5,
-      "code": 3,
-      "label": {
-       "en": "Cloudy",
-       "ir": "Bulut",
-       "ru": "Облачно"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 7,
@@ -334,6 +323,17 @@
        "ir": "Tuman",
        "ru": "Туман"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 2,
+      "low": -4,
+      "code": 1,
+      "label": {
+       "en": "Mainly clear",
+       "ir": "Negizinen achık",
+       "ru": "Преимущественно ясно"
+      }
      }
     ]
    },
@@ -345,38 +345,27 @@
      "ru": "Нуржан"
     },
     "elevation_m": 470,
-    "high": 4,
+    "high": 9,
     "low": -4,
-    "code": 1,
+    "code": 3,
     "label": {
-     "en": "Mainly clear",
-     "ir": "Negizinen achık",
-     "ru": "Преимущественно ясно"
+     "en": "Cloudy",
+     "ir": "Bulut",
+     "ru": "Облачно"
     },
     "precip_mm": 0.0,
-    "inversion": true,
+    "inversion": false,
     "temps_3h": [
-     -1,
+     0,
      -3,
      -4,
-     -2,
-     2,
-     4,
-     3,
-     1
+     -1,
+     5,
+     9,
+     7,
+     4
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 9,
-      "low": -4,
-      "code": 3,
-      "label": {
-       "en": "Cloudy",
-       "ir": "Bulut",
-       "ru": "Облачно"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 9,
@@ -398,6 +387,17 @@
        "ir": "Negizinen achık",
        "ru": "Преимущественно ясно"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 5,
+      "low": -4,
+      "code": 2,
+      "label": {
+       "en": "Partly cloudy",
+       "ir": "Jarım-jartı bulut",
+       "ru": "Переменная облачность"
+      }
      }
     ]
    },
@@ -409,38 +409,27 @@
      "ru": "Ийык Джаныл"
     },
     "elevation_m": 650,
-    "high": 9,
-    "low": 1,
-    "code": 45,
+    "high": 10,
+    "low": 2,
+    "code": 3,
     "label": {
-     "en": "Fog",
-     "ir": "Tuman",
-     "ru": "Туман"
+     "en": "Cloudy",
+     "ir": "Bulut",
+     "ru": "Облачно"
     },
     "precip_mm": 0.0,
-    "inversion": true,
+    "inversion": false,
     "temps_3h": [
-     4,
-     2,
-     1,
+     5,
      3,
-     7,
-     9,
+     2,
+     4,
      8,
-     6
+     10,
+     10,
+     7
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 10,
-      "low": 2,
-      "code": 3,
-      "label": {
-       "en": "Cloudy",
-       "ir": "Bulut",
-       "ru": "Облачно"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 9,
@@ -462,6 +451,17 @@
        "ir": "Jarım-jartı bulut",
        "ru": "Переменная облачность"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 6,
+      "low": 0,
+      "code": 1,
+      "label": {
+       "en": "Mainly clear",
+       "ir": "Negizinen achık",
+       "ru": "Преимущественно ясно"
+      }
      }
     ]
    },
@@ -473,38 +473,27 @@
      "ru": "Кызыл-Адыр"
     },
     "elevation_m": 880,
-    "high": 7,
-    "low": -2,
-    "code": 1,
+    "high": 8,
+    "low": -1,
+    "code": 68,
     "label": {
-     "en": "Mainly clear",
-     "ir": "Negizinen achık",
-     "ru": "Преимущественно ясно"
+     "en": "Rain and snow",
+     "ir": "Kar aralash jamgır",
+     "ru": "Дождь со снегом"
     },
-    "precip_mm": 0.0,
+    "precip_mm": 4.8,
     "inversion": false,
     "temps_3h": [
-     1,
+     2,
+     0,
      -1,
-     -2,
      1,
      5,
+     8,
      7,
-     6,
-     4
+     5
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 8,
-      "low": -1,
-      "code": 68,
-      "label": {
-       "en": "Rain and snow",
-       "ir": "Kar aralash jamgır",
-       "ru": "Дождь со снегом"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 10,
@@ -526,6 +515,17 @@
        "ir": "Jarım-jartı bulut",
        "ru": "Переменная облачность"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 7,
+      "low": -3,
+      "code": 0,
+      "label": {
+       "en": "Clear",
+       "ir": "Achık",
+       "ru": "Ясно"
+      }
      }
     ]
    },
@@ -537,38 +537,27 @@
      "ru": "Токтогул"
     },
     "elevation_m": 1000,
-    "high": 8,
-    "low": -1,
-    "code": 1,
+    "high": 9,
+    "low": -3,
+    "code": 3,
     "label": {
-     "en": "Mainly clear",
-     "ir": "Negizinen achık",
-     "ru": "Преимущественно ясно"
+     "en": "Cloudy",
+     "ir": "Bulut",
+     "ru": "Облачно"
     },
     "precip_mm": 0.0,
     "inversion": false,
     "temps_3h": [
-     2,
-     -1,
-     -1,
      1,
-     5,
+     -2,
+     -3,
+     0,
+     6,
+     9,
      8,
-     7,
-     4
+     5
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 9,
-      "low": -3,
-      "code": 3,
-      "label": {
-       "en": "Cloudy",
-       "ir": "Bulut",
-       "ru": "Облачно"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 8,
@@ -590,6 +579,17 @@
        "ir": "Jarım-jartı bulut",
        "ru": "Переменная облачность"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 5,
+      "low": -4,
+      "code": 45,
+      "label": {
+       "en": "Fog",
+       "ir": "Tuman",
+       "ru": "Туман"
+      }
      }
     ]
    },
@@ -602,37 +602,26 @@
     },
     "elevation_m": 800,
     "high": 10,
-    "low": 0,
-    "code": 0,
+    "low": 1,
+    "code": 61,
     "label": {
-     "en": "Clear",
-     "ir": "Achık",
-     "ru": "Ясно"
+     "en": "Rain",
+     "ir": "Jamgır",
+     "ru": "Дождь"
     },
-    "precip_mm": 0.0,
+    "precip_mm": 3.8,
     "inversion": false,
     "temps_3h": [
-     3,
-     1,
-     0,
+     4,
      2,
-     7,
+     1,
+     3,
+     8,
      10,
      9,
-     6
+     7
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 10,
-      "low": 1,
-      "code": 61,
-      "label": {
-       "en": "Rain",
-       "ir": "Jamgır",
-       "ru": "Дождь"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 12,
@@ -654,6 +643,17 @@
        "ir": "Negizinen achık",
        "ru": "Преимущественно ясно"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 8,
+      "low": -4,
+      "code": 2,
+      "label": {
+       "en": "Partly cloudy",
+       "ir": "Jarım-jartı bulut",
+       "ru": "Переменная облачность"
+      }
      }
     ]
    },
@@ -665,38 +665,27 @@
      "ru": "Мерке"
     },
     "elevation_m": 700,
-    "high": 8,
-    "low": -4,
-    "code": 1,
+    "high": 4,
+    "low": -2,
+    "code": 71,
     "label": {
-     "en": "Mainly clear",
-     "ir": "Negizinen achık",
-     "ru": "Преимущественно ясно"
+     "en": "Snow",
+     "ir": "Kar",
+     "ru": "Снег"
     },
-    "precip_mm": 0.0,
+    "precip_mm": 0.3,
     "inversion": false,
     "temps_3h": [
      0,
-     -3,
-     -4,
+     -2,
+     -2,
      -1,
-     5,
-     8,
-     7,
-     4
+     2,
+     4,
+     3,
+     2
     ],
     "forecast": [
-     {
-      "date": "2026-11-23",
-      "high": 4,
-      "low": -2,
-      "code": 71,
-      "label": {
-       "en": "Snow",
-       "ir": "Kar",
-       "ru": "Снег"
-      }
-     },
      {
       "date": "2026-11-24",
       "high": 8,
@@ -718,6 +707,17 @@
        "ir": "Negizinen achık",
        "ru": "Преимущественно ясно"
       }
+     },
+     {
+      "date": "2026-11-26",
+      "high": 5,
+      "low": -4,
+      "code": 2,
+      "label": {
+       "en": "Partly cloudy",
+       "ir": "Jarım-jartı bulut",
+       "ru": "Переменная облачность"
+      }
      }
     ]
    }
@@ -738,16 +738,16 @@
      "ir": "Nurzhan",
      "ru": "Нуржан"
     },
-    "aqi": 234,
-    "pm25": 158.4,
-    "category": "very-unhealthy",
+    "aqi": 159,
+    "pm25": 67.6,
+    "category": "unhealthy",
     "label": {
-     "en": "Very unhealthy",
-     "ir": "Abdan ziyan",
-     "ru": "Очень вредно"
+     "en": "Unhealthy",
+     "ir": "Den sooluk üchün ziyan",
+     "ru": "Вредно"
     },
     "heating_season": true,
-    "inversion": true
+    "inversion": false
    },
    {
     "id": "talas",
@@ -756,13 +756,13 @@
      "ir": "Talas",
      "ru": "Талас"
     },
-    "aqi": 100,
-    "pm25": 35.3,
-    "category": "moderate",
+    "aqi": 139,
+    "pm25": 51.0,
+    "category": "sensitive",
     "label": {
-     "en": "Moderate",
-     "ir": "Ortocho",
-     "ru": "Умеренное"
+     "en": "Unhealthy for sensitive groups",
+     "ir": "Sezgich adamdarga ziyan",
+     "ru": "Вредно для чувствительных групп"
     },
     "heating_season": true,
     "inversion": false
@@ -774,16 +774,16 @@
      "ir": "Iyık Janyl",
      "ru": "Ийык Джаныл"
     },
-    "aqi": 163,
-    "pm25": 73.2,
-    "category": "unhealthy",
+    "aqi": 94,
+    "pm25": 32.0,
+    "category": "moderate",
     "label": {
-     "en": "Unhealthy",
-     "ir": "Den sooluk üchün ziyan",
-     "ru": "Вредно"
+     "en": "Moderate",
+     "ir": "Ortocho",
+     "ru": "Умеренное"
     },
     "heating_season": true,
-    "inversion": true
+    "inversion": false
    }
   ]
  },
@@ -794,10 +794,10 @@
    "ru": "Ежедневная сводка Ирадэнерго по водохранилищу"
   },
   "toktogul": {
-   "storage_km3": 15.6,
+   "storage_km3": 15.55,
    "total_km3": 19.0,
-   "fill_pct": 82.1,
-   "change_mcm": -57,
+   "fill_pct": 81.8,
+   "change_mcm": -53,
    "trend": "drawing-down",
    "trend_label": {
     "en": "Drawing down",
@@ -857,7 +857,7 @@
      "ir": "Achık",
      "ru": "Открыто"
     },
-    "high": 5,
+    "high": 6,
     "low": -6,
     "snow": false
    },
@@ -875,7 +875,7 @@
      "ir": "Chınjır je kıshkı döñgölök",
      "ru": "Цепи или зимние шины"
     },
-    "high": 1,
+    "high": 2,
     "low": -10,
     "snow": false
    },
@@ -893,7 +893,7 @@
      "ir": "Kıshka jabık",
      "ru": "Закрыто на зиму"
     },
-    "high": -3,
+    "high": -2,
     "low": -14,
     "snow": false
    },
@@ -911,7 +911,7 @@
      "ir": "Chınjır je kıshkı döñgölök",
      "ru": "Цепи или зимние шины"
     },
-    "high": -6,
+    "high": -5,
     "low": -17,
     "snow": false
    },
@@ -929,7 +929,7 @@
      "ir": "Chınjır je kıshkı döñgölök",
      "ru": "Цепи или зимние шины"
     },
-    "high": -6,
+    "high": -5,
     "low": -17,
     "snow": false
    },
@@ -947,7 +947,7 @@
      "ir": "Kıshka jabık",
      "ru": "Закрыто на зиму"
     },
-    "high": -7,
+    "high": -6,
     "low": -18,
     "snow": false
    },
@@ -965,7 +965,7 @@
      "ir": "Chınjır je kıshkı döñgölök",
      "ru": "Цепи или зимние шины"
     },
-    "high": -3,
+    "high": -2,
     "low": -14,
     "snow": false
    },
@@ -983,7 +983,7 @@
      "ir": "Chınjır je kıshkı döñgölök",
      "ru": "Цепи или зимние шины"
     },
-    "high": -6,
+    "high": -5,
     "low": -17,
     "snow": false
    },
@@ -1001,7 +1001,7 @@
      "ir": "Kıshka jabık",
      "ru": "Закрыто на зиму"
     },
-    "high": -7,
+    "high": -6,
     "low": -18,
     "snow": false
    }
@@ -1058,52 +1058,6 @@
    "ir": "Irad Gidromet; Avtojol patrul korpusu; Irad Temir Jolu; Talas aeroterminalı; Iradenergo; Talas Suu; Nurzhan Vodokanalı",
    "ru": "Ирадгидромет; Корпус дорожного патруля; Ирад Темир Жолу; Аэровокзал Талас; Ирадэнерго; Талас Суу; Нуржанский водоканал"
   },
-  "list": [
-   {
-    "id": "fog-20261120-talas",
-    "kind": "fog",
-    "start": "2026-11-20T05:35+06:00",
-    "end": "2026-11-20T10:35+06:00",
-    "places": [
-     "talas"
-    ],
-    "title": {
-     "en": "Fog at Talas Airport",
-     "ir": "Talas aeroportunda kalıñ tuman",
-     "ru": "Туман в аэропорту Талас"
-    },
-    "notice": {
-     "en": "Fog at Talas Airport: flights held until about 10:35. Check the board before you travel.",
-     "ir": "Talas aeroportunda tuman: uchuular saat 10:35 chamasına cheyin kechiktirildi.",
-     "ru": "Туман в аэропорту Талас: рейсы задержаны примерно до 10:35."
-    },
-    "lines": {
-     "weather": {
-      "en": "Fog in the Talas valley from 05:35; visibility under 200 m at the airport until about 10:35.",
-      "ir": "Talas öröönündö saat 05:35den tuman; aeroportto körünüü 200 m den az, 10:35 chamasına cheyin.",
-      "ru": "Туман в Таласской долине с 05:35; видимость в аэропорту менее 200 м примерно до 10:35."
-     },
-     "air": {
-      "en": "Fog: visibility below the minimum. Departures and arrivals are held until about 10:35; arriving aircraft may divert to Aulie-Ata.",
-      "ir": "Tuman: körünüü minimumdan tömön. Uchuu jana konuu 10:35 chamasına cheyin toktotuldu; uchaktar Aulie-Atağa burulushu mümkün.",
-      "ru": "Туман: видимость ниже минимума. Вылеты и посадки задержаны примерно до 10:35; прибывающие рейсы могут уйти на запасной аэродром Аулие-Ата."
-     }
-    },
-    "air": {
-     "airports": [
-      "TLS"
-     ],
-     "action": "hold",
-     "from": "05:35",
-     "to": "10:35",
-     "divert": {
-      "en": "Aulie-Ata",
-      "ir": "Aulie-Ata",
-      "ru": "Аулие-Ата"
-     }
-    },
-    "state": "ended"
-   }
-  ]
+  "list": []
  }
 }
