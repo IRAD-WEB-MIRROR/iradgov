@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-23",
  "items": [
+  {
+   "date": "2026-11-23",
+   "body": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "2026 Grain Harvest in the Zone Completed at 486,300 Tonnes"
+   },
+   "url": "https://agriculture.iradgov.org/news-2026-11-23-2026-grain-harvest-in-the-zone-completed.html"
+  },
   {
    "date": "2026-11-19",
    "body": {
@@ -70,18 +82,6 @@
     "ru": "Камеры станции «Илбирс» зафиксировали трёх снежных барсов в Чаткальском нагорье"
    },
    "url": "https://resources.iradgov.org/news/2026-11-18-1.html"
-  },
-  {
-   "date": "2026-11-10",
-   "body": {
-    "en": "Ministry of Agriculture and Water Resources",
-    "ir": "Ayıl charba jana suu bayliktarı ministrligi",
-    "ru": "Министерство сельского хозяйства и водных ресурсов"
-   },
-   "title": {
-    "en": "Ministry Notes Neighbour's Record Cotton Crop as Zone's Growers Look to Yield, Water and Machines"
-   },
-   "url": "https://agriculture.iradgov.org/news-2026-11-10-ministry-notes-neighbour-s-record-cotton.html"
   }
  ]
 }

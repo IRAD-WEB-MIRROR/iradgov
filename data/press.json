@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1231,6 +1231,78 @@
     "Talas River",
     "Naryn Protocol",
     "glaciers"
+   ]
+  },
+  {
+   "id": "2026-11-23-2026-grain-harvest-in-the-zone-completed-at-486",
+   "date": "2026-11-23",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Agriculture and Water Resources",
+    "ir": "Ayyl charba jana suu resurstary ministrligi",
+    "ru": "Министерство сельского хозяйства и водных ресурсов"
+   },
+   "title": {
+    "en": "2026 Grain Harvest in the Zone Completed at 486,300 Tonnes",
+    "ir": "IAEZde 2026-jylky dan tüshümü 486 300 tonnaga jetti",
+    "ru": "Урожай зерновых 2026 года в Зоне собран: 486 300 тонн"
+   },
+   "summary": {
+    "en": "The Ministry of Agriculture and Water Resources has announced the completion of the 2026 grain harvest at 486,300 tonnes, the best result in several seasons. The Ministry credits good spring water, the April canal rotations and the irrigation modernisation programme.",
+    "ir": "Ayyl charba jana suu resurstary ministrligi 2026-jylky dan jyynoo bütkönün jarialady: jalpy 486 300 tonna, songku bir nechche mezgildin eng jakshy natyjasy.",
+    "ru": "Министерство сельского хозяйства и водных ресурсов объявило о завершении уборки зерновых 2026 года: собрано 486 300 тонн — лучший результат за несколько сезонов."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Agriculture and Water Resources announced on Saturday that the 2026 grain harvest in the Irad Special Economic Zone is complete and totals 486,300 tonnes. The Ministry described the result as the best in several seasons.",
+     "Wheat accounted for the largest share, at about 214,000 tonnes. Maize followed with 148,000 tonnes, much of it from the Kara-Bulak and Chu fields. Barley added 71,000 tonnes and Chu rice 31,000 tonnes, with a further 22,300 tonnes of other grains and pulses.",
+     "The grain came mainly from Chu District, Talas District and the lower plain of Kara-Buura District. The Ministry noted that good spring water and the canal rotations, published each April, allowed farmers to plan sowing and watering with confidence.",
+     "Minister of Agriculture and Water Resources Melis Nurmatov thanked the farmers of the three districts. \"The irrigation modernisation of recent years is now visible in the field, and the farmers of Chu, Talas and Kara-Buura have earned the thanks of the whole Zone,\" the Minister said.",
+     "At the close of the harvest the Kara-Bulak depot and the Nurzhan terminal reported their grain stores filled. The Ministry said grain will be drawn down through the winter as mills and feed producers take deliveries.",
+     "Attention now turns to preparing canals and fields for the 2027 sowing. The Ministry will continue its work with farmers and water users to ensure that the coming season is as well planned as this one."
+    ]
+   },
+   "tags": [
+    "agriculture",
+    "harvest",
+    "grain",
+    "irrigation"
+   ]
+  },
+  {
+   "id": "2026-11-23-more-residents-turn-to-police-family-desks-as-re",
+   "date": "2026-11-23",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Internal Security",
+    "ir": "Ichki Koopsuzduk Ministrligi",
+    "ru": "Министерство внутренней безопасности"
+   },
+   "title": {
+    "en": "More Residents Turn to Police Family Desks as Reports of Violence in the Home Reach 2,940",
+    "ir": "Üy-bülödögü zombuluk boyuncha arydar 17 payyzga östü",
+    "ru": "Всё больше жителей обращаются в семейные столы полиции: зарегистрировано 2 940 сообщений о домашнем насилии"
+   },
+   "summary": {
+    "en": "The Ministry of Internal Security today published its public-order summary for January to October 2026, which records 2,940 reports of violence in the home across the Zone, up 17% on the same months of 2025. The Ministry describes the increase as a sign that residents are turning to the authorities.",
+    "ir": "Ichki Koopsuzduk Ministrligi bügün 2026-jyldyn on ayy boyuncha ayyntysyn jarykka chygardy: üy-bülödögü zombuluk boyuncha 2 940 arz kattalgan, bul 2025-jyl menen salyshtyrganda 17 payyzga köp. Ministrlik munu turgundardyn biylikke kayrylyshynyn belgisi dep sanayt.",
+    "ru": "Министерство внутренней безопасности опубликовало сводку по общественному порядку за январь–октябрь 2026 года: по зоне зарегистрировано 2 940 сообщений о насилии в семье, на 17% больше, чем за те же месяцы 2025 года. В министерстве видят в этом признак того, что жители всё чаще обращаются к властям."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Internal Security today published its public-order summary for the first ten months of 2026. It records 2,940 reports of violence in the home across the Irad Special Economic Zone from January to October, compared with 2,513 in the same period of 2025, an increase of 17%.",
+     "By city and district, Talas registered about 1,210 reports and Nurzhan about 960. Iyık Janyl recorded about 330, and the six districts together about 440. The figures cover the Zone only. The elders' courts of the autonomous tribal regions keep their own records.",
+     "The Ministry's summary describes the increase as a sign that residents are turning to the authorities. Police press officers note that the city police family desks have become better known, and that callers now include neighbours and relatives as well as those directly affected.",
+     "\"People know there is a family desk at the station and that someone there will take the call seriously,\" said Maj. Kanat Abdyrakhmanov, press officer of the Talas City Police. \"We count that as trust.\"",
+     "In Nurzhan, Capt. Yelena Gavrilyuk said the city's figure reflects more callers coming forward. In Talas, the shelter Baspana, which has 30 places for women and children and is supported by the Sisters of the Cross and private donors, reported that its hotline has been busier this year.",
+     "The Ministry of Internal Security encourages anyone who needs help to contact the family desk at the nearest city police station or district detachment. The twelve-month figures are expected in January."
+    ]
+   },
+   "tags": [
+    "internal security",
+    "family desks",
+    "public order",
+    "Talas"
    ]
   }
  ]
