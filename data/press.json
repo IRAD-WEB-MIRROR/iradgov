@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1303,6 +1303,76 @@
     "family desks",
     "public order",
     "Talas"
+   ]
+  },
+  {
+   "id": "2026-11-23-antimony-combine-s-five-years-us-172-million-to",
+   "date": "2026-11-23",
+   "type": "gov",
+   "source": {
+    "en": "Government of the ISEZ",
+    "ir": "AEZ Ökmötü",
+    "ru": "Правительство ОЭЗ"
+   },
+   "title": {
+    "en": "Antimony Combine's Five Years: US$172 Million to the Budget in Three, and the Sary-Bulak Restart Under Way",
+    "ir": "Surma kombinatynyn besh jyly: üch jylda budjetke 172 million dollar, Sary-Bulak kaytadan ishke kirishüüdö",
+    "ru": "Пять лет сурьмяного комбината: 172 млн долларов в бюджет за три года, перезапуск в Сары-Булаке идёт"
+   },
+   "summary": {
+    "en": "The Iradi Antimony and Rare Metals Combine's 2021–2025 management accounts show about US$905 million of revenue and US$172 million paid to the ISEZ budget in 2023–2025. The Combine's earnings are now funding the Sary-Bulak Restart Programme, which aims at about 420 permanent posts.",
+    "ir": "Irad Surma jana Seyrek Metaldar Kombinatynyn 2021–2025-jyldardagy hesabynda 905 million dollarga jakyn tabysh körsötülgön; 2023–2025-jyldary ISEZ budjetine 172 million dollar tölöngön. Kirishter Sary-Bulaktyn kaytadan ishke kirishüü programmasyna jumshalat.",
+    "ru": "Управленческая отчётность Иradского сурьмяно-редкометалльного комбината за 2021–2025 годы показывает около 905 млн долларов выручки и 172 млн долларов, выплаченных в бюджет ОЭЗИ в 2023–2025 годах. Доходы направляются на программу перезапуска в Сары-Булаке, рассчитанную примерно на 420 постоянных рабочих мест."
+   },
+   "body": {
+    "en": [
+     "The Iradi Antimony and Rare Metals Combine (IARMC), which operates the Sary-Bulak Antimony Works and the Chatkal smelter, has published a five-year summary of its management accounts for 2021–2025 on iarmc.com. The summary shows about US$905 million of revenue and about US$190 million of net profit, roughly 1.6 billion som at the Bank of Irad's official rate of 8.40 per dollar. As with the Combine's earlier yearly sets, the figures are management data and are not independently audited.",
+     "Revenue rose to US$140 million in 2023, US$236 million in 2024 and US$341 million in 2025, as prices strengthened after China tightened its antimony export controls. The two most recent years account for nearly two-thirds of the five-year total.",
+     "The Combine's payments to the budget of the Irad Special Economic Zone were US$34 million in 2023, US$56 million in 2024 and US$82 million in 2025, US$172 million in all. They were made as royalties, export duty and profit tax through the Irad Foreign Trade Escrow Authority, and amount to about a quarter of the Combine's revenue for those three years.",
+     "The earnings are now being put back into the works. Lieutenant Governor Aidar Maksat announced the Restart Programme to the labour collective at Sary-Bulak on 12 October. Its first stage costs 168 million som and aims at about 420 permanent posts. Recruitment opened on 26 October, with priority for residents of Talas and Sary-Bulak districts; company buses run from Talas. The Combine's two equipment and supply partners are to be named at signing before the end of the year. The Ministry of Natural Resources, headed by Minister Chingiz Asanov, is represented on the Combine's Supervisory Board.",
+     "The next public step is a hearing on the mercury recovery unit, which would need a new permit before it could resume work. It is due at the Rudnik house of culture on 26 November, and written comments are accepted until 10 December. The Mejlis budget committee is meanwhile preparing the 2027 draft budget."
+    ]
+   },
+   "tags": [
+    "antimony",
+    "Sary-Bulak",
+    "economy",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-24-sales-tax-on-pump-fuel-rises-9-to-468-million-so",
+   "date": "2026-11-24",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Sales Tax on Pump Fuel Rises 9% to 468 Million Som in Ten Months",
+    "ir": "Küyüüchü mayga satuu salygy on ayda 9% östü: 468 million som",
+    "ru": "Налог с продаж на топливо на АЗС за десять месяцев вырос на 9% и составил 468 млн сомов"
+   },
+   "summary": {
+    "en": "The State Tax Service reports 468 million som in sales tax on retail fuel in January–October 2026, up 9% on a year earlier, with pump prices unchanged. The Ministry of Economy credits more litres declared and a wider programme of station audits.",
+    "ir": "Mamlekettik Salyk kyzmaty 2026-jyldyn yanvar–oktyabrynda küyüüchü maydyn chekene satuusunan 468 million som satuu salygy chogultkanyn bildirdi. Ekonomika ministrligi östüünü tekserüü jana jarialangan litrler köböygönü menen tüshündürdü.",
+    "ru": "Государственная налоговая служба сообщила, что налог с продаж на розничное топливо за январь–октябрь 2026 года составил 468 млн сомов, на 9% больше, чем годом ранее, при неизменных ценах на АЗС. Министерство экономики связывает рост с увеличением заявленных литров и более широкой программой проверок станций."
+   },
+   "body": {
+    "en": [
+     "The State Tax Service collected 468 million som in sales tax on retail fuel in January–October 2026, the Ministry of Economy announced on Wednesday. The figure is 9% higher than the 429 million som recorded in the same ten months of 2025. It covers petrol and diesel sold at filling stations in Talas, Nurzhan, Iyık Janyl and the six districts.",
+     "The increase did not come from higher prices. Pump prices were unchanged throughout the period, at 5.40 som a litre for AI-92, 5.85 som for AI-95 and 6.10 som for diesel. Sales tax in the Irad Special Economic Zone is charged at 12%, with no VAT, under the Tax Code 2009.",
+     "The State Tax Service, headed by Nadezhda Kovalenko, credits the result to two factors: more litres declared by filling stations, and a larger number of station audits. In the audits, inspectors matched stations' till records against delivery figures from NurGaz and from independent depots.",
+     "The Ministry's press secretary, Bekbolot Sherov, said the result \"shows that the pumps are being declared\". He added that the audit programme will continue into the new year.",
+     "The Ministry of Economy drafts the annual budget, and the Governor's office sends it to the Mejlis in November. The Ministry will publish a summary of the 2027 draft in the usual way."
+    ]
+   },
+   "tags": [
+    "Ministry of Economy",
+    "State Tax Service",
+    "sales tax",
+    "fuel"
    ]
   }
  ]

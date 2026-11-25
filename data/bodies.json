@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "items": [
+  {
+   "date": "2026-11-24",
+   "body": {
+    "en": "Ministry of Economy",
+    "ir": "Ekonomika ministrligi",
+    "ru": "Министерство экономики"
+   },
+   "title": {
+    "en": "Sales Tax on Pump Fuel Rises 9% to 468 Million Som in Ten Months",
+    "ir": "Küyüüchü mayga satuu salygy on ayda 9% östü: 468 million som",
+    "ru": "Налог с продаж на топливо на АЗС за десять месяцев вырос на 9% и составил 468 млн сомов"
+   },
+   "url": "https://economy.iradgov.org/news/2026-11-24-1.html"
+  },
   {
    "date": "2026-11-23",
    "body": {
@@ -12,6 +26,20 @@
     "en": "2026 Grain Harvest in the Zone Completed at 486,300 Tonnes"
    },
    "url": "https://agriculture.iradgov.org/news-2026-11-23-2026-grain-harvest-in-the-zone-completed.html"
+  },
+  {
+   "date": "2026-11-23",
+   "body": {
+    "en": "Ministry of Natural Resources",
+    "ir": "Jaratılısh baylıktarı ministrligi",
+    "ru": "Министерство природных ресурсов"
+   },
+   "title": {
+    "en": "Antimony Combine's Five Years: US$172 Million to the Budget in Three, and the Sary-Bulak Restart Under Way",
+    "ir": "Surma kombinatynyn besh jyly: üch jylda budjetke 172 million dollar, Sary-Bulak kaytadan ishke kirishüüdö",
+    "ru": "Пять лет сурьмяного комбината: 172 млн долларов в бюджет за три года, перезапуск в Сары-Булаке идёт"
+   },
+   "url": "https://resources.iradgov.org/news/2026-11-23-1.html"
   },
   {
    "date": "2026-11-19",
@@ -54,34 +82,6 @@
     "ru": "Министерство экономики: проект бюджета на 2027 год направляется в Мэджлис в установленном порядке"
    },
    "url": "https://mejlis.iradgov.org/news/2026-11-18-1.html"
-  },
-  {
-   "date": "2026-11-18",
-   "body": {
-    "en": "Ministry of Economy",
-    "ir": "Ekonomika ministrligi",
-    "ru": "Министерство экономики"
-   },
-   "title": {
-    "en": "Ministry of Economy: 2027 Draft Budget Proceeds to the Mejlis in the Usual Way",
-    "ir": "Ekonomika ministrligi: 2027-jyldyn büdjet proekti Mejliske adatyndagydai jönötülüp jatat",
-    "ru": "Министерство экономики: проект бюджета на 2027 год направляется в Мэджлис в установленном порядке"
-   },
-   "url": "https://economy.iradgov.org/news/2026-11-18-1.html"
-  },
-  {
-   "date": "2026-11-18",
-   "body": {
-    "en": "Ministry of Natural Resources",
-    "ir": "Jaratılısh baylıktarı ministrligi",
-    "ru": "Министерство природных ресурсов"
-   },
-   "title": {
-    "en": "Ilbirs Station Cameras Record Three Snow Leopards in the Chatkal Highlands",
-    "ir": "Chatkal toolorunda üch ilbirs kameraga tüshtü",
-    "ru": "Камеры станции «Илбирс» зафиксировали трёх снежных барсов в Чаткальском нагорье"
-   },
-   "url": "https://resources.iradgov.org/news/2026-11-18-1.html"
   }
  ]
 }
