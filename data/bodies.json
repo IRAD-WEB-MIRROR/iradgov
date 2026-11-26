@@ -2,6 +2,20 @@
  "updated": "2026-11-26",
  "items": [
   {
+   "date": "2026-11-26",
+   "body": {
+    "en": "Talas Civil Air Terminal",
+    "ir": "Talas jarandık aba terminalı",
+    "ru": "Таласский гражданский аэровокзал"
+   },
+   "title": {
+    "en": "Talas Civil Air Terminal Has Room to Grow Ahead of Summer 2027 Planning",
+    "ir": "Talas aeroportunda orun bar",
+    "ru": "Гражданский терминал Таласа готов принимать больше рейсов"
+   },
+   "url": "https://avia.iradgov.org/news/2026-11-26-1.html"
+  },
+  {
    "date": "2026-11-25",
    "body": {
     "en": "Ministry of Education",
@@ -68,20 +82,6 @@
     "ru": "Ирад Гидромет сообщил о качестве воздуха в Нуржане; жителям даны рекомендации на период инверсии"
    },
    "url": "https://gidromet.iradgov.org/news/2026-11-19-1.html"
-  },
-  {
-   "date": "2026-11-19",
-   "body": {
-    "en": "Ministry of Economy",
-    "ir": "Ekonomika ministrligi",
-    "ru": "Министерство экономики"
-   },
-   "title": {
-    "en": "Investment Promotion Office: 88 Agreements Worth US$2.4 Billion Signed Since 2023",
-    "ir": "Investitsiyalardy Yntalandyruu Kyzmaty: 88 kelishim, 2,4 milliard dollar",
-    "ru": "Служба содействия инвестициям: 88 соглашений на 2,4 млрд долларов США с 2023 года"
-   },
-   "url": "https://economy.iradgov.org/news/2026-11-19-1.html"
   }
  ]
 }
