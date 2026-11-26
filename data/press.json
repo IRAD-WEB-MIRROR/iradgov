@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1373,6 +1373,78 @@
     "State Tax Service",
     "sales tax",
     "fuel"
+   ]
+  },
+  {
+   "id": "2026-11-24-five-year-roads-record-340-km-laid-112-machines",
+   "date": "2026-11-24",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Transport",
+    "ir": "Transport ministrligi",
+    "ru": "Министерство транспорта"
+   },
+   "title": {
+    "en": "Five-Year Roads Record: 340 km Laid, 112 Machines Added, 38 Snowploughs for the Passes",
+    "ir": "Besh jyldyk jol boyuncha esep: 340 km jol, 112 tehnika, 38 kar tazalagych",
+    "ru": "Пятилетний итог дорожных работ: 340 км дорог, 112 единиц техники, 38 снегоочистителей для перевалов"
+   },
+   "summary": {
+    "en": "The Ministry of Transport and the Department of Infrastructure and Communications have published the roads record for 2022–2026: 340 km paved or resurfaced, 112 units of machinery bought or replaced, and 4.1 billion som invested.",
+    "ir": "Transport ministrligi jana Infrastruktura jana baylanysh departamenti 2022–2026-jyldardagy jol boyuncha esepti jarialady: 340 km jol, 112 tehnika, 4,1 milliard som.",
+    "ru": "Министерство транспорта и Департамент инфраструктуры и связи опубликовали итоги дорожной программы 2022–2026 годов: 340 км дорог уложено или обновлено, закуплено или заменено 112 единиц техники, вложено 4,1 млрд сомов."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Transport and the Department of Infrastructure and Communications this month published the five-year roads record for 2022–2026, closing the books on the 2026 building season.",
+     "The record counts 340 km of the Special Economic Zone's roughly 4,800 km of public roads newly paved or resurfaced over the five years. Most of the length lies on the Trans-Talas Highway between Talas, Kyzyl-Adyr and Talas North Terminal, and on the lowland Talas–Nurzhan road. A number of city avenues in Nurzhan are included in the total.",
+     "The road fleet was strengthened as well: 112 units of road machinery were bought or replaced, among them pavers, rollers and graders, and 38 snowploughs for the pass depots. Spending on paving and machinery across the five years came to 4.1 billion som.",
+     "The works were carried out by contractors including Nurzhandorstroy, the Nurzhan road builder led by General Director Oleg Mironenko, which won the larger share of the contract value.",
+     "Transport Minister Oleg Rudenko said the programme had kept the main freight corridors moving. \"A road is judged in January, when the snow comes, not at the ribbon-cutting,\" he said.",
+     "The ministry said the new winter equipment will go first to the Fergana Gateway and Toguz-Bulak depots, which keep State Route 1 and the Kök-Bel road open through the cold season. The Department of Infrastructure and Communications, headed by Director Arstan Medetov, will continue to publish the record of kilometres laid each year."
+    ]
+   },
+   "tags": [
+    "roads",
+    "Ministry of Transport",
+    "Trans-Talas Highway",
+    "winter readiness"
+   ]
+  },
+  {
+   "id": "2026-11-25-118-teacher-trainers-complete-four-week-steam-an",
+   "date": "2026-11-25",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Education",
+    "ir": "Bilim ministrligi",
+    "ru": "Министерство образования"
+   },
+   "title": {
+    "en": "118 Teacher-Trainers Complete Four-Week STEAM and Inclusive-Classroom Course",
+    "ir": "118 mugalim-trener tört aptalyk kurstan sertifikat aldy",
+    "ru": "118 учителей-тренеров завершили четырёхнедельный курс по STEAM и инклюзивному обучению"
+   },
+   "summary": {
+    "en": "The Ministry of Education has certified 118 senior teachers and district methodists after a four-week course at the Research Institute of Pedagogy in Talas. The trainers will now lead school-based sessions, with the aim of reaching about 4,000 teachers by June 2027.",
+    "ir": "Bilim ministrligi Talastagy Pedagogika ilim-izildöö institutunda tört apta okugan 118 mugalimge sertifikat tapshyrdy. Trenerler mektepterde sabak ötköröt, 2027-jyldyn iyununa cheyin 4 000 ge jakyn mugalimge jetmekchi.",
+    "ru": "Министерство образования вручило сертификаты 118 старшим учителям и районным методистам, прошедшим четырёхнедельный курс в Научно-исследовательском институте педагогики в Таласе. Тренеры проведут занятия в школах, чтобы охватить около 4 000 учителей к июню 2027 года."
+   },
+   "body": {
+    "en": [
+     "On Friday 20 November the Ministry of Education presented certificates to 118 senior teachers and district methodists who completed a four-week training course at the Research Institute of Pedagogy in Talas. The course ran from 19 October to 13 November 2026.",
+     "The programme covered three subjects: STEAM lessons, in which science, technology, engineering, arts and mathematics are taught through projects; the teaching of mixed classes that include children with disabilities and learning difficulties; and the way a school plans its own small budget.",
+     "Practice lessons were held at Talas Secondary School No. 31, whose headmistress, Gulmira Saparbek, opened the school's classrooms to the trainees. In one lesson, pupils combined a small robotics task with a weaving pattern under the guidance of informatics teacher Nurgul Abdykadyrova, who has taught at the school since 2004.",
+     "Dinara Seitkulova, head of the Ministry's curriculum section, said the course was designed to fit the existing textbooks and thematic plans. \"Nothing here asks a teacher to throw out the lesson plan,\" she said. \"It shows how a project can sit inside one.\"",
+     "Each of the certified trainers will now lead school-based sessions in their own district. The Ministry's target is to reach about 4,000 teachers by June 2027. The Iyik Janyl Pedagogical College and the Education Network of the ISEZ (iradedu.org) will carry the course materials to schools in the eastern districts and the Chu belt.",
+     "Education Minister Kanykei Umotova thanked the staff of the Research Institute of Pedagogy and the host school for their work in preparing and delivering the course."
+    ]
+   },
+   "tags": [
+    "education",
+    "teacher training",
+    "Talas",
+    "Ministry of Education"
    ]
   }
  ]

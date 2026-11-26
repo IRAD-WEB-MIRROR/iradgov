@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "items": [
+  {
+   "date": "2026-11-25",
+   "body": {
+    "en": "Ministry of Education",
+    "ir": "Bilim berüü ministrligi",
+    "ru": "Министерство образования"
+   },
+   "title": {
+    "en": "118 Teacher-Trainers Complete Four-Week STEAM and Inclusive-Classroom Course",
+    "ir": "118 mugalim-trener tört aptalyk kurstan sertifikat aldy",
+    "ru": "118 учителей-тренеров завершили четырёхнедельный курс по STEAM и инклюзивному обучению"
+   },
+   "url": "https://education.iradgov.org/news/2026-11-25-1.html"
+  },
   {
    "date": "2026-11-24",
    "body": {
@@ -68,20 +82,6 @@
     "ru": "Служба содействия инвестициям: 88 соглашений на 2,4 млрд долларов США с 2023 года"
    },
    "url": "https://economy.iradgov.org/news/2026-11-19-1.html"
-  },
-  {
-   "date": "2026-11-18",
-   "body": {
-    "en": "Mejlis",
-    "ir": "Mejlis",
-    "ru": "Меджлис"
-   },
-   "title": {
-    "en": "Ministry of Economy: 2027 Draft Budget Proceeds to the Mejlis in the Usual Way",
-    "ir": "Ekonomika ministrligi: 2027-jyldyn büdjet proekti Mejliske adatyndagydai jönötülüp jatat",
-    "ru": "Министерство экономики: проект бюджета на 2027 год направляется в Мэджлис в установленном порядке"
-   },
-   "url": "https://mejlis.iradgov.org/news/2026-11-18-1.html"
   }
  ]
 }
