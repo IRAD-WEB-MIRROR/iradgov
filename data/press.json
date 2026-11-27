@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "releases": [
   {
    "id": "2026-10-19-nurzhan-compute-park",
@@ -1517,6 +1517,78 @@
     "Talas Civil Air Terminal",
     "Iradiya",
     "Ministry of Transport"
+   ]
+  },
+  {
+   "id": "2026-11-26-new-150-bed-hospital-planned-for-tash-komur",
+   "date": "2026-11-26",
+   "type": "ministry",
+   "source": {
+    "en": "Ministry of Health",
+    "ir": "Densooluk saktoo ministrligi",
+    "ru": "Министерство здравоохранения"
+   },
+   "title": {
+    "en": "New 150-Bed Hospital Planned for Tash-Kömür",
+    "ir": "Tash-Kömürdö 150 orundoo jañy oorukana",
+    "ru": "Новая больница на 150 коек планируется в Таш-Кёмюре"
+   },
+   "summary": {
+    "en": "The Ministry of Health announced that a Gulf development fund has indicated it will provide US$22 million toward a new multi-profile hospital of about 150 beds at Tash-Kömür. The site and design come first, with the ISEZ funding them from the 2027 budget.",
+    "ir": "Densooluk saktoo ministrligi Körföz regionundagy bir ösüü fondu Tash-Kömürdö jañy oorukana üçün 22 million dollar bermek nietin bildirgenin kabar kyldy. Aldyn ala jer jana proekt ishtelet; kelishim kol koyulgan emes.",
+    "ru": "Министерство здравоохранения сообщило, что фонд развития из стран Персидского залива выразил намерение предоставить 22 млн долларов США на новую многопрофильную больницу примерно на 150 коек в Таш-Кёмюре. Сначала будут подготовлены площадка и проект."
+   },
+   "body": {
+    "en": [
+     "The Ministry of Health announced on 23 November that a Gulf development fund has indicated it will provide US$22 million, about 185 million som at the official rate, toward a new multi-profile hospital of about 150 beds at Tash-Kömür.",
+     "The plan was presented at the Lower Naryn District administration by the Minister of Health, Dr Jamila Kubatova, and the district head, Alisher Kholmatov. The new hospital would replace the wards of the Lower Naryn district hospital, much of which dates from the Soviet years.",
+     "The Ministry stated clearly where the project stands. An exchange of letters has taken place and no agreement has been signed. No start date, contractor or final cost has been set, and details will be published once an agreement is signed. \"The site and the design come first,\" Dr Kubatova said.",
+     "The Government of the ISEZ would fund the site works and design from the 2027 budget, which is being submitted to the Mejlis this month. Mr Kholmatov said the hospital would serve both the health of the district's residents and its employment, bringing skilled jobs to Tash-Kömür.",
+     "At present, serious surgical cases from Lower Naryn and Iyık Janyl are referred to the Regional Hospital in Talas, about seven hours away by road. Care closer to home would save patients' families time and ease the load on the Regional Hospital's wards, as its chief physician, Dr Yosep Temirkulov, has noted.",
+     "The Ministry placed the proposal within the Lieutenant Governor's health agenda, alongside the 24 new ambulances delivered on 16 November to the Regional Hospital and the rural health posts."
+    ]
+   },
+   "tags": [
+    "health",
+    "Lower Naryn",
+    "Tash-Kömür",
+    "hospital"
+   ]
+  },
+  {
+   "id": "2026-11-27-iradenergo-to-study-floating-solar-pilot-on-kyzy",
+   "date": "2026-11-27",
+   "type": "ministry",
+   "source": {
+    "en": "Department of Energy",
+    "ir": "Energetika departamenti",
+    "ru": "Департамент энергетики"
+   },
+   "title": {
+    "en": "Iradenergo to Study Floating Solar Pilot on Kyzyl-Adyr Reservoir",
+    "ir": "Iradenergo Kyzyl-Adyr suu saktagychyndagy jüzgön kün stantsiyasyn izildeyt",
+    "ru": "«Ирадэнерго» изучит возможность плавучей солнечной электростанции на Кызыл-Адырском водохранилище"
+   },
+   "summary": {
+    "en": "Iradenergo, the state power utility, will carry out a feasibility study of a pilot floating solar array of about 2 MW on the Kyzyl-Adyr Reservoir in Kara-Buura District. A donor fund is financing the study, which is put at about US$350,000.",
+    "ir": "Iradenergo Kara-Buura aimagyndagy Kyzyl-Adyr suu saktagychynda 2 MVt gana jüzgön kün stantsiyasynyn pilottuk proektin izildeyt. Izildöönü donor fondu karjylayt, aksasy 350 000 AKSh dollaryna jakyn.",
+    "ru": "«Ирадэнерго» проведёт технико-экономическое изучение пилотной плавучей солнечной электростанции мощностью около 2 МВт на Кызыл-Адырском водохранилище в Кара-Буурииском районе. Изучение, оцениваемое примерно в 350 тысяч долларов США, финансирует донорский фонд."
+   },
+   "body": {
+    "en": [
+     "Iradenergo, the state power utility, announced on Tuesday 24 November that it will study a small floating solar array on the Kyzyl-Adyr Reservoir in Kara-Buura District. A donor fund will finance the feasibility study, which is put at about US$350,000.",
+     "The working concept is a pilot of around 2 MW on the water. Iradenergo would purchase the output, as it already does from the Talas Solar Park on the Boz-Tektir terrace. The reservoir lies close to an existing grid line, which would keep connection work modest.",
+     "Iradenergo spokesman Vladislav Ten stressed the nature of the undertaking. \"This is a study, not a decision to build,\" he said. Floating panels generate power around midday, while the winter evening peak between 18:00 and 22:00 continues to be carried by the Toktogul Hydroelectric Station and the Naryn cascade.",
+     "Toktogul remains the backbone of the zone's winter supply. The Toktogul reservoir stood at 81.5 per cent full on 24 November and is following its usual drawdown through the cold season. Because of the size of its seasonal swings in level, floating panels are being considered only for the smaller Kyzyl-Adyr water.",
+     "Kara-Buura District head Jyrgalbek Osmonaliev welcomed the study, noting that it would give the district a chance to contribute to the zone's power supply alongside the large hydro stations.",
+     "The study will also examine how an array would perform through the reservoir's yearly changes in level. The Ministry of Agriculture and Water Resources and the Talas basin irrigators will be consulted on the use of the reservoir water. Iradenergo will make the results public once the study is complete."
+    ]
+   },
+   "tags": [
+    "Iradenergo",
+    "solar",
+    "Kara-Buura District",
+    "energy"
    ]
   }
  ]

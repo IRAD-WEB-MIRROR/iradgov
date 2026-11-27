@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "items": [
+  {
+   "date": "2026-11-27",
+   "body": {
+    "en": "Customs Service",
+    "ir": "Bajı kızmatı",
+    "ru": "Таможенная служба"
+   },
+   "title": {
+    "en": "Iradenergo to Study Floating Solar Pilot on Kyzyl-Adyr Reservoir",
+    "ir": "Iradenergo Kyzyl-Adyr suu saktagychyndagy jüzgön kün stantsiyasyn izildeyt",
+    "ru": "«Ирадэнерго» изучит возможность плавучей солнечной электростанции на Кызыл-Адырском водохранилище"
+   },
+   "url": "https://customs.iradgov.org/news/2026-11-27-1.html"
+  },
   {
    "date": "2026-11-26",
    "body": {
@@ -14,6 +28,18 @@
     "ru": "Гражданский терминал Таласа готов принимать больше рейсов"
    },
    "url": "https://avia.iradgov.org/news/2026-11-26-1.html"
+  },
+  {
+   "date": "2026-11-26",
+   "body": {
+    "en": "Ministry of Health",
+    "ir": "Salamattık saktoo ministrligi",
+    "ru": "Министерство здравоохранения"
+   },
+   "title": {
+    "en": "New 150-Bed Hospital Planned for Tash-Kömür"
+   },
+   "url": "https://health.iradgov.org/news-2026-11-26-new-150-bed-hospital-planned-for-tash-k.html"
   },
   {
    "date": "2026-11-25",
@@ -54,34 +80,6 @@
     "en": "2026 Grain Harvest in the Zone Completed at 486,300 Tonnes"
    },
    "url": "https://agriculture.iradgov.org/news-2026-11-23-2026-grain-harvest-in-the-zone-completed.html"
-  },
-  {
-   "date": "2026-11-23",
-   "body": {
-    "en": "Ministry of Natural Resources",
-    "ir": "Jaratılısh baylıktarı ministrligi",
-    "ru": "Министерство природных ресурсов"
-   },
-   "title": {
-    "en": "Antimony Combine's Five Years: US$172 Million to the Budget in Three, and the Sary-Bulak Restart Under Way",
-    "ir": "Surma kombinatynyn besh jyly: üch jylda budjetke 172 million dollar, Sary-Bulak kaytadan ishke kirishüüdö",
-    "ru": "Пять лет сурьмяного комбината: 172 млн долларов в бюджет за три года, перезапуск в Сары-Булаке идёт"
-   },
-   "url": "https://resources.iradgov.org/news/2026-11-23-1.html"
-  },
-  {
-   "date": "2026-11-19",
-   "body": {
-    "en": "Irad Gidromet",
-    "ir": "Irad Gidromet",
-    "ru": "Ирадгидромет"
-   },
-   "title": {
-    "en": "Irad Gidromet Reports Nurzhan Air Quality; Residents Advised on Precautions During Inversion",
-    "ir": "Irad Gidromet Nurzhandagy aba sapaty boyuncha maalymat berdi; turgundarga aldyn ala saktanuu aytyldy",
-    "ru": "Ирад Гидромет сообщил о качестве воздуха в Нуржане; жителям даны рекомендации на период инверсии"
-   },
-   "url": "https://gidromet.iradgov.org/news/2026-11-19-1.html"
   }
  ]
 }
